@@ -1,0 +1,1192 @@
+{
+  "units": [
+    {
+      "id": "byt-1",
+      "title": "Byt 01",
+      "kind": "byt",
+      "floor": 2,
+      "layout": "2+kk",
+      "area": 46.3,
+      "feature": "S lodžií",
+      "gallery": [
+        {
+          "src": "/media/01-byt-1-3.webp",
+          "thumb": "/media/01-byt-1-3-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-2.webp",
+          "thumb": "/media/01-byt-1-2-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-4.webp",
+          "thumb": "/media/01-byt-1-4-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-5.webp",
+          "thumb": "/media/01-byt-1-5-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-7.webp",
+          "thumb": "/media/01-byt-1-7-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-8.webp",
+          "thumb": "/media/01-byt-1-8-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-11.webp",
+          "thumb": "/media/01-byt-1-11-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-12.webp",
+          "thumb": "/media/01-byt-1-12-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-13.webp",
+          "thumb": "/media/01-byt-1-13-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-14.webp",
+          "thumb": "/media/01-byt-1-14-thumb.webp"
+        },
+        {
+          "src": "/media/01-byt-1-15.webp",
+          "thumb": "/media/01-byt-1-15-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np2.webp",
+      "description": "Obývací pokoj s kuchyňským koutem a vstupem na lodžii doplňuje samostatná ložnice, koupelna a předsíň.",
+      "planSlot": "vpravo"
+    },
+    {
+      "id": "byt-2",
+      "title": "Byt 02",
+      "kind": "byt",
+      "floor": 2,
+      "layout": "2+kk",
+      "area": 46.1,
+      "feature": "S arkýřem",
+      "gallery": [
+        {
+          "src": "/media/02-byt-2-8.webp",
+          "thumb": "/media/02-byt-2-8-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-3.webp",
+          "thumb": "/media/02-byt-2-3-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-4.webp",
+          "thumb": "/media/02-byt-2-4-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-5.webp",
+          "thumb": "/media/02-byt-2-5-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-6.webp",
+          "thumb": "/media/02-byt-2-6-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-9.webp",
+          "thumb": "/media/02-byt-2-9-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-10.webp",
+          "thumb": "/media/02-byt-2-10-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-11.webp",
+          "thumb": "/media/02-byt-2-11-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-12.webp",
+          "thumb": "/media/02-byt-2-12-thumb.webp"
+        },
+        {
+          "src": "/media/02-byt-2-13.webp",
+          "thumb": "/media/02-byt-2-13-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np2.webp",
+      "description": "Samostatná ložnice s arkýřem, obývací pokoj s kuchyňským koutem, koupelna a předsíň.",
+      "planSlot": "uprostřed"
+    },
+    {
+      "id": "byt-3",
+      "title": "Byt 03",
+      "kind": "byt",
+      "floor": 2,
+      "layout": "1+kk",
+      "area": 33.8,
+      "feature": "Kompaktní dispozice",
+      "gallery": [
+        {
+          "src": "/media/03-byt-3-3.webp",
+          "thumb": "/media/03-byt-3-3-thumb.webp"
+        },
+        {
+          "src": "/media/03-byt-3-4.webp",
+          "thumb": "/media/03-byt-3-4-thumb.webp"
+        },
+        {
+          "src": "/media/03-byt-3-5.webp",
+          "thumb": "/media/03-byt-3-5-thumb.webp"
+        },
+        {
+          "src": "/media/03-byt-3-6.webp",
+          "thumb": "/media/03-byt-3-6-thumb.webp"
+        },
+        {
+          "src": "/media/03-byt-3-7.webp",
+          "thumb": "/media/03-byt-3-7-thumb.webp"
+        },
+        {
+          "src": "/media/03-byt-3-8.webp",
+          "thumb": "/media/03-byt-3-8-thumb.webp"
+        },
+        {
+          "src": "/media/03-byt-3-9.webp",
+          "thumb": "/media/03-byt-3-9-thumb.webp"
+        },
+        {
+          "src": "/media/03-byt-3-10.webp",
+          "thumb": "/media/03-byt-3-10-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np2.webp",
+      "description": "Obytný prostor s kuchyňským koutem, samostatná předsíň a koupelna s vanou. Účelná dispozice jednoho pokoje.",
+      "planSlot": "vlevo"
+    },
+    {
+      "id": "byt-4",
+      "title": "Byt 04",
+      "kind": "byt",
+      "floor": 3,
+      "layout": "2+kk",
+      "area": 46.3,
+      "feature": "S lodžií",
+      "gallery": [
+        {
+          "src": "/media/04-byt-4-3.webp",
+          "thumb": "/media/04-byt-4-3-thumb.webp"
+        },
+        {
+          "src": "/media/04-byt-4-2.webp",
+          "thumb": "/media/04-byt-4-2-thumb.webp"
+        },
+        {
+          "src": "/media/04-byt-4-4.webp",
+          "thumb": "/media/04-byt-4-4-thumb.webp"
+        },
+        {
+          "src": "/media/04-byt-4-5.webp",
+          "thumb": "/media/04-byt-4-5-thumb.webp"
+        },
+        {
+          "src": "/media/04-byt-4-6.webp",
+          "thumb": "/media/04-byt-4-6-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np3.webp",
+      "description": "Obývací pokoj s kuchyňským koutem a vstupem na lodžii doplňuje samostatná ložnice, koupelna a předsíň.",
+      "planSlot": "vpravo"
+    },
+    {
+      "id": "byt-5",
+      "title": "Byt 05",
+      "kind": "byt",
+      "floor": 3,
+      "layout": "2+kk",
+      "area": 46.1,
+      "feature": "S arkýřem",
+      "gallery": [
+        {
+          "src": "/media/05-byt-5-4.webp",
+          "thumb": "/media/05-byt-5-4-thumb.webp"
+        },
+        {
+          "src": "/media/05-byt-5-3.webp",
+          "thumb": "/media/05-byt-5-3-thumb.webp"
+        },
+        {
+          "src": "/media/05-byt-5-2.webp",
+          "thumb": "/media/05-byt-5-2-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np3.webp",
+      "description": "Samostatná ložnice s arkýřem, obývací pokoj s kuchyňským koutem, koupelna a předsíň.",
+      "planSlot": "uprostřed"
+    },
+    {
+      "id": "byt-6",
+      "title": "Byt 06",
+      "kind": "byt",
+      "floor": 3,
+      "layout": "1+kk",
+      "area": 33.8,
+      "feature": "Kompaktní dispozice",
+      "gallery": [
+        {
+          "src": "/media/06-byt-6-2.webp",
+          "thumb": "/media/06-byt-6-2-thumb.webp"
+        },
+        {
+          "src": "/media/06-byt-6-3.webp",
+          "thumb": "/media/06-byt-6-3-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np3.webp",
+      "description": "Obytný prostor s kuchyňským koutem, samostatná předsíň a koupelna s vanou. Účelná dispozice jednoho pokoje.",
+      "planSlot": "vlevo"
+    },
+    {
+      "id": "byt-7",
+      "title": "Byt 07",
+      "kind": "byt",
+      "floor": 4,
+      "layout": "2+kk",
+      "area": 46.3,
+      "feature": "S lodžií",
+      "gallery": [
+        {
+          "src": "/media/07-byt-7-3.webp",
+          "thumb": "/media/07-byt-7-3-thumb.webp"
+        },
+        {
+          "src": "/media/07-byt-7-4.webp",
+          "thumb": "/media/07-byt-7-4-thumb.webp"
+        },
+        {
+          "src": "/media/07-byt-7-5.webp",
+          "thumb": "/media/07-byt-7-5-thumb.webp"
+        },
+        {
+          "src": "/media/07-byt-7-6.webp",
+          "thumb": "/media/07-byt-7-6-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np4.webp",
+      "description": "Obývací pokoj s kuchyňským koutem a vstupem na lodžii doplňuje samostatná ložnice, koupelna a předsíň.",
+      "planSlot": "vpravo"
+    },
+    {
+      "id": "byt-8",
+      "title": "Byt 08",
+      "kind": "byt",
+      "floor": 4,
+      "layout": "2+kk",
+      "area": 42.5,
+      "feature": "Bez arkýře",
+      "gallery": [
+        {
+          "src": "/media/08-byt-8-3.webp",
+          "thumb": "/media/08-byt-8-3-thumb.webp"
+        },
+        {
+          "src": "/media/08-byt-8-2.webp",
+          "thumb": "/media/08-byt-8-2-thumb.webp"
+        },
+        {
+          "src": "/media/08-byt-8-4.webp",
+          "thumb": "/media/08-byt-8-4-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np4.webp",
+      "description": "Obývací pokoj s kuchyňským koutem a samostatná ložnice. Oproti prostředním bytům v nižších podlažích je tato jednotka bez arkýře.",
+      "planSlot": "uprostřed"
+    },
+    {
+      "id": "byt-9",
+      "title": "Byt 09",
+      "kind": "byt",
+      "floor": 4,
+      "layout": "1+kk",
+      "area": 33.8,
+      "feature": "Kompaktní dispozice",
+      "gallery": [
+        {
+          "src": "/media/09-byt-9-3.webp",
+          "thumb": "/media/09-byt-9-3-thumb.webp"
+        },
+        {
+          "src": "/media/09-byt-9-2.webp",
+          "thumb": "/media/09-byt-9-2-thumb.webp"
+        },
+        {
+          "src": "/media/09-byt-9-4.webp",
+          "thumb": "/media/09-byt-9-4-thumb.webp"
+        },
+        {
+          "src": "/media/09-byt-9-5.webp",
+          "thumb": "/media/09-byt-9-5-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np4.webp",
+      "description": "Obytný prostor s kuchyňským koutem, samostatná předsíň a koupelna s vanou. Účelná dispozice jednoho pokoje.",
+      "planSlot": "vlevo"
+    },
+    {
+      "id": "obchod-1",
+      "title": "Obchod 01",
+      "kind": "obchod",
+      "floor": 1,
+      "layout": "Nebytový prostor",
+      "area": 60.6,
+      "feature": "Vlastní vstup z ulice",
+      "gallery": [
+        {
+          "src": "/media/11-komercni-prostor-1-1.webp",
+          "thumb": "/media/11-komercni-prostor-1-1-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-2.webp",
+          "thumb": "/media/11-komercni-prostor-1-2-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-3.webp",
+          "thumb": "/media/11-komercni-prostor-1-3-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-4.webp",
+          "thumb": "/media/11-komercni-prostor-1-4-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-5.webp",
+          "thumb": "/media/11-komercni-prostor-1-5-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-6.webp",
+          "thumb": "/media/11-komercni-prostor-1-6-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-7.webp",
+          "thumb": "/media/11-komercni-prostor-1-7-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-8.webp",
+          "thumb": "/media/11-komercni-prostor-1-8-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-9.webp",
+          "thumb": "/media/11-komercni-prostor-1-9-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-10.webp",
+          "thumb": "/media/11-komercni-prostor-1-10-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np1.webp",
+      "description": "Obchodní prostor v přízemí s výlohou a samostatným vstupem z ulice. Prodejní plochu doplňuje kuchyňka, koupelna s WC a skladové zázemí."
+    },
+    {
+      "id": "obchod-2",
+      "title": "Obchod 02",
+      "kind": "obchod",
+      "floor": 1,
+      "layout": "Nebytový prostor",
+      "area": 49.55,
+      "feature": "Vlastní vstup z ulice",
+      "gallery": [
+        {
+          "src": "/media/12-komercni-prostor-2-1.webp",
+          "thumb": "/media/12-komercni-prostor-2-1-thumb.webp"
+        },
+        {
+          "src": "/media/12-komercni-prostor-2-2.webp",
+          "thumb": "/media/12-komercni-prostor-2-2-thumb.webp"
+        },
+        {
+          "src": "/media/12-komercni-prostor-2-3.webp",
+          "thumb": "/media/12-komercni-prostor-2-3-thumb.webp"
+        },
+        {
+          "src": "/media/12-komercni-prostor-2-4.webp",
+          "thumb": "/media/12-komercni-prostor-2-4-thumb.webp"
+        },
+        {
+          "src": "/media/12-komercni-prostor-2-5.webp",
+          "thumb": "/media/12-komercni-prostor-2-5-thumb.webp"
+        },
+        {
+          "src": "/media/12-komercni-prostor-2-6.webp",
+          "thumb": "/media/12-komercni-prostor-2-6-thumb.webp"
+        },
+        {
+          "src": "/media/12-komercni-prostor-2-7.webp",
+          "thumb": "/media/12-komercni-prostor-2-7-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np1.webp",
+      "description": "Obchodní prostor v přízemí s výlohou a samostatným vstupem z ulice. Prodejní plochu doplňuje kuchyňka, koupelna s WC a skladové zázemí."
+    },
+    {
+      "id": "puda",
+      "title": "Půdní prostor",
+      "kind": "puda",
+      "floor": 5,
+      "layout": "Otevřená půda",
+      "area": 139,
+      "feature": "Záměr dvou bytů",
+      "gallery": [
+        {
+          "src": "/media/10-puda-1.webp",
+          "thumb": "/media/10-puda-1-thumb.webp"
+        },
+        {
+          "src": "/media/10-puda-2.webp",
+          "thumb": "/media/10-puda-2-thumb.webp"
+        },
+        {
+          "src": "/media/10-puda-3.webp",
+          "thumb": "/media/10-puda-3-thumb.webp"
+        },
+        {
+          "src": "/media/10-puda-4.webp",
+          "thumb": "/media/10-puda-4-thumb.webp"
+        },
+        {
+          "src": "/media/10-puda-5.webp",
+          "thumb": "/media/10-puda-5-thumb.webp"
+        },
+        {
+          "src": "/media/10-puda-6.webp",
+          "thumb": "/media/10-puda-6-thumb.webp"
+        }
+      ],
+      "plan": "/plany/np5.webp",
+      "description": "Vyklizený půdní prostor pod opravenou střechou. Majitel uvádí vydané stavební povolení pro vestavbu dvou bytů. Předložený půdorys zachycuje současný otevřený prostor, nikoli budoucí bytové dispozice."
+    }
+  ],
+  "groups": {
+    "00-spolecne-prostory": [
+      {
+        "src": "/media/00-spolecne-prostory-1.webp",
+        "thumb": "/media/00-spolecne-prostory-1-thumb.webp",
+        "original": "P1177998.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-2.webp",
+        "thumb": "/media/00-spolecne-prostory-2-thumb.webp",
+        "original": "P1178003.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-3.webp",
+        "thumb": "/media/00-spolecne-prostory-3-thumb.webp",
+        "original": "P1178008.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-4.webp",
+        "thumb": "/media/00-spolecne-prostory-4-thumb.webp",
+        "original": "P1178772.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-5.webp",
+        "thumb": "/media/00-spolecne-prostory-5-thumb.webp",
+        "original": "P1178776.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-6.webp",
+        "thumb": "/media/00-spolecne-prostory-6-thumb.webp",
+        "original": "P1178781.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-7.webp",
+        "thumb": "/media/00-spolecne-prostory-7-thumb.webp",
+        "original": "P1178786.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-8.webp",
+        "thumb": "/media/00-spolecne-prostory-8-thumb.webp",
+        "original": "P1178791.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-9.webp",
+        "thumb": "/media/00-spolecne-prostory-9-thumb.webp",
+        "original": "P1178796.jpg"
+      },
+      {
+        "src": "/media/00-spolecne-prostory-10.webp",
+        "thumb": "/media/00-spolecne-prostory-10-thumb.webp",
+        "original": "P1178809.jpg"
+      }
+    ],
+    "10-puda": [
+      {
+        "src": "/media/10-puda-1.webp",
+        "thumb": "/media/10-puda-1-thumb.webp"
+      },
+      {
+        "src": "/media/10-puda-2.webp",
+        "thumb": "/media/10-puda-2-thumb.webp"
+      },
+      {
+        "src": "/media/10-puda-3.webp",
+        "thumb": "/media/10-puda-3-thumb.webp"
+      },
+      {
+        "src": "/media/10-puda-4.webp",
+        "thumb": "/media/10-puda-4-thumb.webp"
+      },
+      {
+        "src": "/media/10-puda-5.webp",
+        "thumb": "/media/10-puda-5-thumb.webp"
+      },
+      {
+        "src": "/media/10-puda-6.webp",
+        "thumb": "/media/10-puda-6-thumb.webp"
+      }
+    ],
+    "11-komercni-prostor-1": [
+      {
+        "src": "/media/11-komercni-prostor-1-1.webp",
+        "thumb": "/media/11-komercni-prostor-1-1-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-2.webp",
+        "thumb": "/media/11-komercni-prostor-1-2-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-3.webp",
+        "thumb": "/media/11-komercni-prostor-1-3-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-4.webp",
+        "thumb": "/media/11-komercni-prostor-1-4-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-5.webp",
+        "thumb": "/media/11-komercni-prostor-1-5-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-6.webp",
+        "thumb": "/media/11-komercni-prostor-1-6-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-7.webp",
+        "thumb": "/media/11-komercni-prostor-1-7-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-8.webp",
+        "thumb": "/media/11-komercni-prostor-1-8-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-9.webp",
+        "thumb": "/media/11-komercni-prostor-1-9-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-10.webp",
+        "thumb": "/media/11-komercni-prostor-1-10-thumb.webp"
+      }
+    ],
+    "12-komercni-prostor-2": [
+      {
+        "src": "/media/12-komercni-prostor-2-1.webp",
+        "thumb": "/media/12-komercni-prostor-2-1-thumb.webp"
+      },
+      {
+        "src": "/media/12-komercni-prostor-2-2.webp",
+        "thumb": "/media/12-komercni-prostor-2-2-thumb.webp"
+      },
+      {
+        "src": "/media/12-komercni-prostor-2-3.webp",
+        "thumb": "/media/12-komercni-prostor-2-3-thumb.webp"
+      },
+      {
+        "src": "/media/12-komercni-prostor-2-4.webp",
+        "thumb": "/media/12-komercni-prostor-2-4-thumb.webp"
+      },
+      {
+        "src": "/media/12-komercni-prostor-2-5.webp",
+        "thumb": "/media/12-komercni-prostor-2-5-thumb.webp"
+      },
+      {
+        "src": "/media/12-komercni-prostor-2-6.webp",
+        "thumb": "/media/12-komercni-prostor-2-6-thumb.webp"
+      },
+      {
+        "src": "/media/12-komercni-prostor-2-7.webp",
+        "thumb": "/media/12-komercni-prostor-2-7-thumb.webp"
+      }
+    ],
+    "13-dilna": [
+      {
+        "src": "/media/13-dilna-1.webp",
+        "thumb": "/media/13-dilna-1-thumb.webp",
+        "original": "P1178817.jpg"
+      }
+    ],
+    "14-kolarna-a-vychod-ven": [
+      {
+        "src": "/media/14-kolarna-a-vychod-ven-1.webp",
+        "thumb": "/media/14-kolarna-a-vychod-ven-1-thumb.webp",
+        "original": "P1178822.jpg"
+      },
+      {
+        "src": "/media/14-kolarna-a-vychod-ven-2.webp",
+        "thumb": "/media/14-kolarna-a-vychod-ven-2-thumb.webp",
+        "original": "P1178830.jpg"
+      }
+    ],
+    "15-dum-a-fasady": [
+      {
+        "src": "/media/15-dum-a-fasady-1.webp",
+        "thumb": "/media/15-dum-a-fasady-1-thumb.webp",
+        "original": "DJI_20260915163002_0399_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-2.webp",
+        "thumb": "/media/15-dum-a-fasady-2-thumb.webp",
+        "original": "DJI_20260915163024_0401_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-3.webp",
+        "thumb": "/media/15-dum-a-fasady-3-thumb.webp",
+        "original": "DJI_20260915163035_0402_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-4.webp",
+        "thumb": "/media/15-dum-a-fasady-4-thumb.webp",
+        "original": "DJI_20260915163106_0404_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-5.webp",
+        "thumb": "/media/15-dum-a-fasady-5-thumb.webp",
+        "original": "DJI_20260915163133_0406_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-6.webp",
+        "thumb": "/media/15-dum-a-fasady-6-thumb.webp",
+        "original": "DJI_20260915163216_0410_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-7.webp",
+        "thumb": "/media/15-dum-a-fasady-7-thumb.webp",
+        "original": "DJI_20260915163221_0411_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-8.webp",
+        "thumb": "/media/15-dum-a-fasady-8-thumb.webp",
+        "original": "DJI_20260915163247_0413_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-9.webp",
+        "thumb": "/media/15-dum-a-fasady-9-thumb.webp",
+        "original": "DJI_20260915163512_0426_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-10.webp",
+        "thumb": "/media/15-dum-a-fasady-10-thumb.webp",
+        "original": "DJI_20260915163625_0431_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-11.webp",
+        "thumb": "/media/15-dum-a-fasady-11-thumb.webp",
+        "original": "DJI_20260915163649_0433_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-12.webp",
+        "thumb": "/media/15-dum-a-fasady-12-thumb.webp",
+        "original": "DJI_20260915180651_0450_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-13.webp",
+        "thumb": "/media/15-dum-a-fasady-13-thumb.webp",
+        "original": "DJI_20260915180713_0452_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-14.webp",
+        "thumb": "/media/15-dum-a-fasady-14-thumb.webp",
+        "original": "DJI_20260915180737_0454_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-15.webp",
+        "thumb": "/media/15-dum-a-fasady-15-thumb.webp",
+        "original": "DJI_20260915180752_0458_D.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-16.webp",
+        "thumb": "/media/15-dum-a-fasady-16-thumb.webp",
+        "original": "P1178658-HDR.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-17.webp",
+        "thumb": "/media/15-dum-a-fasady-17-thumb.webp",
+        "original": "P1178914-HDR.jpg"
+      },
+      {
+        "src": "/media/15-dum-a-fasady-18.webp",
+        "thumb": "/media/15-dum-a-fasady-18-thumb.webp",
+        "original": "P1178929-HDR.jpg"
+      }
+    ],
+    "16-dvur-parkoviste-a-zelen": [
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-1.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-1-thumb.webp",
+        "original": "DJI_20260915163150_0408_D.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-2.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-2-thumb.webp",
+        "original": "DJI_20260915163730_0434_D.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-3.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-3-thumb.webp",
+        "original": "DJI_20260915163734_0435_D.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-4.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-4-thumb.webp",
+        "original": "DJI_20260915163819_0437_D.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-5.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-5-thumb.webp",
+        "original": "DJI_20260915163849_0440_D.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-6.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-6-thumb.webp",
+        "original": "P1178582-HDR.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-7.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-7-thumb.webp",
+        "original": "P1178587-HDR.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-8.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-8-thumb.webp",
+        "original": "P1178593-HDR.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-9.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-9-thumb.webp",
+        "original": "P1178598-HDR.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-10.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-10-thumb.webp",
+        "original": "P1178603-HDR.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-11.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-11-thumb.webp",
+        "original": "P1178603.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-12.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-12-thumb.webp",
+        "original": "P1178610.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-13.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-13-thumb.webp",
+        "original": "P1178620-HDR.jpg"
+      },
+      {
+        "src": "/media/16-dvur-parkoviste-a-zelen-14.webp",
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-14-thumb.webp",
+        "original": "P1178625-HDR.jpg"
+      }
+    ],
+    "17-okoli-a-mesto": [
+      {
+        "src": "/media/17-okoli-a-mesto-1.webp",
+        "thumb": "/media/17-okoli-a-mesto-1-thumb.webp",
+        "original": "DJI_20260915162922_0396_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-2.webp",
+        "thumb": "/media/17-okoli-a-mesto-2-thumb.webp",
+        "original": "DJI_20260915162928_0397_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-3.webp",
+        "thumb": "/media/17-okoli-a-mesto-3-thumb.webp",
+        "original": "DJI_20260915163347_0419_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-4.webp",
+        "thumb": "/media/17-okoli-a-mesto-4-thumb.webp",
+        "original": "DJI_20260915163350_0420_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-5.webp",
+        "thumb": "/media/17-okoli-a-mesto-5-thumb.webp",
+        "original": "DJI_20260915163358_0421_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-6.webp",
+        "thumb": "/media/17-okoli-a-mesto-6-thumb.webp",
+        "original": "DJI_20260915163543_0428_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-7.webp",
+        "thumb": "/media/17-okoli-a-mesto-7-thumb.webp",
+        "original": "DJI_20260915180934_0468_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-8.webp",
+        "thumb": "/media/17-okoli-a-mesto-8-thumb.webp",
+        "original": "DJI_20260915181037_0472_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-9.webp",
+        "thumb": "/media/17-okoli-a-mesto-9-thumb.webp",
+        "original": "DJI_20260915181123_0475_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-10.webp",
+        "thumb": "/media/17-okoli-a-mesto-10-thumb.webp",
+        "original": "DJI_20260915181146_0477_D.jpg"
+      },
+      {
+        "src": "/media/17-okoli-a-mesto-11.webp",
+        "thumb": "/media/17-okoli-a-mesto-11-thumb.webp",
+        "original": "DJI_20260915181340_0483_D.jpg"
+      }
+    ],
+    "20-sklep-01": [
+      {
+        "src": "/media/20-sklep-01-1.webp",
+        "thumb": "/media/20-sklep-01-1-thumb.webp",
+        "original": "P1178834.jpg"
+      }
+    ],
+    "20-sklep-02": [
+      {
+        "src": "/media/20-sklep-02-1.webp",
+        "thumb": "/media/20-sklep-02-1-thumb.webp",
+        "original": "P1178840.jpg"
+      }
+    ],
+    "20-sklep-03": [
+      {
+        "src": "/media/20-sklep-03-1.webp",
+        "thumb": "/media/20-sklep-03-1-thumb.webp",
+        "original": "P1178844.jpg"
+      }
+    ],
+    "20-sklep-04": [
+      {
+        "src": "/media/20-sklep-04-1.webp",
+        "thumb": "/media/20-sklep-04-1-thumb.webp",
+        "original": "P1178850.jpg"
+      }
+    ],
+    "20-sklep-05": [
+      {
+        "src": "/media/20-sklep-05-1.webp",
+        "thumb": "/media/20-sklep-05-1-thumb.webp",
+        "original": "P1178854.jpg"
+      }
+    ],
+    "20-sklep-06": [
+      {
+        "src": "/media/20-sklep-06-1.webp",
+        "thumb": "/media/20-sklep-06-1-thumb.webp",
+        "original": "P1178861.jpg"
+      }
+    ],
+    "20-sklep-07": [
+      {
+        "src": "/media/20-sklep-07-1.webp",
+        "thumb": "/media/20-sklep-07-1-thumb.webp",
+        "original": "P1178866.jpg"
+      }
+    ],
+    "20-sklep-08": [
+      {
+        "src": "/media/20-sklep-08-1.webp",
+        "thumb": "/media/20-sklep-08-1-thumb.webp",
+        "original": "P1178869.jpg"
+      }
+    ],
+    "20-sklep-09": [
+      {
+        "src": "/media/20-sklep-09-1.webp",
+        "thumb": "/media/20-sklep-09-1-thumb.webp",
+        "original": "P1178874.jpg"
+      }
+    ],
+    "20-sklep-10": [
+      {
+        "src": "/media/20-sklep-10-1.webp",
+        "thumb": "/media/20-sklep-10-1-thumb.webp",
+        "original": "P1178879.jpg"
+      }
+    ],
+    "20-sklep-11": [
+      {
+        "src": "/media/20-sklep-11-1.webp",
+        "thumb": "/media/20-sklep-11-1-thumb.webp",
+        "original": "P1178884.jpg"
+      }
+    ],
+    "20-sklep-12": [
+      {
+        "src": "/media/20-sklep-12-1.webp",
+        "thumb": "/media/20-sklep-12-1-thumb.webp",
+        "original": "P1178889.jpg"
+      }
+    ],
+    "20-sklep-13": [
+      {
+        "src": "/media/20-sklep-13-1.webp",
+        "thumb": "/media/20-sklep-13-1-thumb.webp",
+        "original": "P1178894.jpg"
+      },
+      {
+        "src": "/media/20-sklep-13-2.webp",
+        "thumb": "/media/20-sklep-13-2-thumb.webp",
+        "original": "P1178899.jpg"
+      },
+      {
+        "src": "/media/20-sklep-13-3.webp",
+        "thumb": "/media/20-sklep-13-3-thumb.webp",
+        "original": "P1178904.jpg"
+      }
+    ],
+    "nove-foto-roztrid": []
+  },
+  "reconstruction": [
+    {
+      "src": "/media/reko-bouraci-prace-vstupy-do-bytu.webp",
+      "name": "Bourací práce - vstupy do bytů",
+      "group": "Bourací práce, změna dispozice"
+    },
+    {
+      "src": "/media/reko-bouraci-prace.webp",
+      "name": "Bourací práce",
+      "group": "Bourací práce, změna dispozice"
+    },
+    {
+      "src": "/media/reko-bouraci-prace1.webp",
+      "name": "Bourací práce1",
+      "group": "Bourací práce, změna dispozice"
+    },
+    {
+      "src": "/media/reko-bouraci-prace2.webp",
+      "name": "Bourací práce2",
+      "group": "Bourací práce, změna dispozice"
+    },
+    {
+      "src": "/media/reko-bouraci-prace3.webp",
+      "name": "Bourací práce3",
+      "group": "Bourací práce, změna dispozice"
+    },
+    {
+      "src": "/media/reko-bouraci-prace4.webp",
+      "name": "Bourací práce4",
+      "group": "Bourací práce, změna dispozice"
+    },
+    {
+      "src": "/media/reko-vybourani-novych-otvoru.webp",
+      "name": "Vybourání nových otvorů",
+      "group": "Bourací práce, změna dispozice"
+    },
+    {
+      "src": "/media/reko-zazdeni-puvodnich-otvoru.webp",
+      "name": "Zazdění původních otvorů",
+      "group": "Bourací práce, změna dispozice"
+    },
+    {
+      "src": "/media/reko-nova-pripojka-elektro-ukoncena-rozvodnou-skrini-na-fasade.webp",
+      "name": "Nová přípojka elektro ukončena rozvodnou skříní na fasádě",
+      "group": "Elektropřípojka k domu"
+    },
+    {
+      "src": "/media/reko-rozbity-chodnik-kvuli-nove-pripojce-elektri.webp",
+      "name": "Rozbitý chodník kvůli nové přípojce elektri",
+      "group": "Elektropřípojka k domu"
+    },
+    {
+      "src": "/media/reko-napojeni-do-destove-kanalizace.webp",
+      "name": "Napojení do dešťové kanalizace",
+      "group": "Kanalizace"
+    },
+    {
+      "src": "/media/reko-napojeni-do-destove-kanalizace2.webp",
+      "name": "Napojení do dešťové kanalizace2",
+      "group": "Kanalizace"
+    },
+    {
+      "src": "/media/reko-napojeni-do-destove-kanalizace3.webp",
+      "name": "Napojení do dešťové kanalizace3",
+      "group": "Kanalizace"
+    },
+    {
+      "src": "/media/reko-vycisteni-kanalizace.webp",
+      "name": "Vyčištění kanalizace",
+      "group": "Kanalizace"
+    },
+    {
+      "src": "/media/reko-nove-stoupacky.webp",
+      "name": "Nové stoupačky",
+      "group": "Stoupačky"
+    },
+    {
+      "src": "/media/reko-nove-stoupacky2.webp",
+      "name": "Nové stoupačky2",
+      "group": "Stoupačky"
+    },
+    {
+      "src": "/media/reko-nove-stoupacky3.webp",
+      "name": "Nové stoupačky3",
+      "group": "Stoupačky"
+    },
+    {
+      "src": "/media/reko-nove-omitani.webp",
+      "name": "Nové omítání",
+      "group": "Omítky"
+    },
+    {
+      "src": "/media/reko-nove-omitani1.webp",
+      "name": "Nové omítání1",
+      "group": "Omítky"
+    },
+    {
+      "src": "/media/reko-osekani-puvodnich-omitek.webp",
+      "name": "Osekání původních omítek",
+      "group": "Omítky"
+    },
+    {
+      "src": "/media/reko-osekani-puvodnich-omitek1.webp",
+      "name": "Osekání původních omítek1",
+      "group": "Omítky"
+    },
+    {
+      "src": "/media/reko-osekani-puvodnich-omitek2.webp",
+      "name": "Osekání původních omítek2",
+      "group": "Omítky"
+    },
+    {
+      "src": "/media/reko-brouseni-osb-desek-a-pokladka-podlah.webp",
+      "name": "Broušení OSB desek a pokládka podlah",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-brouseni-osb-desek.webp",
+      "name": "Broušení OSB desek",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-montaz-osb-desek2.webp",
+      "name": "Montáž OSB desek2",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-montaz-prilozek-a-osetreni-naterem.webp",
+      "name": "Montáž příložek a ošetření nátěrem",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-montaz-prilozek-a-osetreni-naterem3.webp",
+      "name": "Montáž příložek a ošetření nátěrem3",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-montaz-prilozek-a-osetreni-naterem4.webp",
+      "name": "Montáž příložek a ošetření nátěrem4",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-puvodni-stropni-konstrukce2.webp",
+      "name": "Původní stropní konstrukce2",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-puvodni-stropni-konstrukce4.webp",
+      "name": "Původní stropní konstrukce4",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-slozita-manipulace-jerabem-pro-zdvizeni-zeleznych-pruvlaku-do-kazdeho-patra.webp",
+      "name": "Složitá manipulace jeřábem pro zdvižení železných průvlaků do každého patra",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-slozita-manipulace-jerabem-pro-zdvizeni-zeleznych-pruvlaku-do-kazdeho-patra2.webp",
+      "name": "Složitá manipulace jeřábem pro zdvižení železných průvlaků do každého patra2",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-vraceni-puvodniho-nasypu.webp",
+      "name": "Vrácení původního násypu",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-zesileni-stropni-konstrukce-ocelovymi-pruvlaky.webp",
+      "name": "Zesílení stropní konstrukce ocelovými průvlaky",
+      "group": "Podlahy"
+    },
+    {
+      "src": "/media/reko-puvodni-sklep.webp",
+      "name": "Původní sklep",
+      "group": "Původní sklepy"
+    },
+    {
+      "src": "/media/reko-puvodni-vjezd-kolarna.webp",
+      "name": "Původní vjezd kolárna",
+      "group": "Původní sklepy"
+    },
+    {
+      "src": "/media/reko-img-8107.webp",
+      "name": "IMG_8107",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8108.webp",
+      "name": "IMG_8108",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8109.webp",
+      "name": "IMG_8109",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8110.webp",
+      "name": "IMG_8110",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8111.webp",
+      "name": "IMG_8111",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8112.webp",
+      "name": "IMG_8112",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8114.webp",
+      "name": "IMG_8114",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8115.webp",
+      "name": "IMG_8115",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8116.webp",
+      "name": "IMG_8116",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8117.webp",
+      "name": "IMG_8117",
+      "group": "Střecha původní"
+    },
+    {
+      "src": "/media/reko-img-8118.webp",
+      "name": "IMG_8118",
+      "group": "Střecha původní"
+    }
+  ]
+}
