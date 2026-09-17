@@ -462,53 +462,43 @@
     "00-spolecne-prostory": [
       {
         "src": "/media/00-spolecne-prostory-1.webp",
-        "thumb": "/media/00-spolecne-prostory-1-thumb.webp",
-        "original": "P1177998.jpg"
+        "thumb": "/media/00-spolecne-prostory-1-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-2.webp",
-        "thumb": "/media/00-spolecne-prostory-2-thumb.webp",
-        "original": "P1178003.jpg"
+        "thumb": "/media/00-spolecne-prostory-2-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-3.webp",
-        "thumb": "/media/00-spolecne-prostory-3-thumb.webp",
-        "original": "P1178008.jpg"
+        "thumb": "/media/00-spolecne-prostory-3-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-4.webp",
-        "thumb": "/media/00-spolecne-prostory-4-thumb.webp",
-        "original": "P1178772.jpg"
+        "thumb": "/media/00-spolecne-prostory-4-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-5.webp",
-        "thumb": "/media/00-spolecne-prostory-5-thumb.webp",
-        "original": "P1178776.jpg"
+        "thumb": "/media/00-spolecne-prostory-5-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-6.webp",
-        "thumb": "/media/00-spolecne-prostory-6-thumb.webp",
-        "original": "P1178781.jpg"
+        "thumb": "/media/00-spolecne-prostory-6-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-7.webp",
-        "thumb": "/media/00-spolecne-prostory-7-thumb.webp",
-        "original": "P1178786.jpg"
+        "thumb": "/media/00-spolecne-prostory-7-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-8.webp",
-        "thumb": "/media/00-spolecne-prostory-8-thumb.webp",
-        "original": "P1178791.jpg"
+        "thumb": "/media/00-spolecne-prostory-8-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-9.webp",
-        "thumb": "/media/00-spolecne-prostory-9-thumb.webp",
-        "original": "P1178796.jpg"
+        "thumb": "/media/00-spolecne-prostory-9-thumb.webp"
       },
       {
         "src": "/media/00-spolecne-prostory-10.webp",
-        "thumb": "/media/00-spolecne-prostory-10-thumb.webp",
-        "original": "P1178809.jpg"
+        "thumb": "/media/00-spolecne-prostory-10-thumb.webp"
       }
     ],
     "10-puda": [
@@ -612,345 +602,283 @@
     "13-dilna": [
       {
         "src": "/media/13-dilna-1.webp",
-        "thumb": "/media/13-dilna-1-thumb.webp",
-        "original": "P1178817.jpg"
+        "thumb": "/media/13-dilna-1-thumb.webp"
       }
     ],
     "14-kolarna-a-vychod-ven": [
       {
         "src": "/media/14-kolarna-a-vychod-ven-1.webp",
-        "thumb": "/media/14-kolarna-a-vychod-ven-1-thumb.webp",
-        "original": "P1178822.jpg"
+        "thumb": "/media/14-kolarna-a-vychod-ven-1-thumb.webp"
       },
       {
         "src": "/media/14-kolarna-a-vychod-ven-2.webp",
-        "thumb": "/media/14-kolarna-a-vychod-ven-2-thumb.webp",
-        "original": "P1178830.jpg"
+        "thumb": "/media/14-kolarna-a-vychod-ven-2-thumb.webp"
       }
     ],
     "15-dum-a-fasady": [
       {
         "src": "/media/15-dum-a-fasady-1.webp",
-        "thumb": "/media/15-dum-a-fasady-1-thumb.webp",
-        "original": "DJI_20260915163002_0399_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-1-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-2.webp",
-        "thumb": "/media/15-dum-a-fasady-2-thumb.webp",
-        "original": "DJI_20260915163024_0401_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-2-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-3.webp",
-        "thumb": "/media/15-dum-a-fasady-3-thumb.webp",
-        "original": "DJI_20260915163035_0402_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-3-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-4.webp",
-        "thumb": "/media/15-dum-a-fasady-4-thumb.webp",
-        "original": "DJI_20260915163106_0404_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-4-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-5.webp",
-        "thumb": "/media/15-dum-a-fasady-5-thumb.webp",
-        "original": "DJI_20260915163133_0406_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-5-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-6.webp",
-        "thumb": "/media/15-dum-a-fasady-6-thumb.webp",
-        "original": "DJI_20260915163216_0410_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-6-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-7.webp",
-        "thumb": "/media/15-dum-a-fasady-7-thumb.webp",
-        "original": "DJI_20260915163221_0411_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-7-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-8.webp",
-        "thumb": "/media/15-dum-a-fasady-8-thumb.webp",
-        "original": "DJI_20260915163247_0413_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-8-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-9.webp",
-        "thumb": "/media/15-dum-a-fasady-9-thumb.webp",
-        "original": "DJI_20260915163512_0426_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-9-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-10.webp",
-        "thumb": "/media/15-dum-a-fasady-10-thumb.webp",
-        "original": "DJI_20260915163625_0431_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-10-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-11.webp",
-        "thumb": "/media/15-dum-a-fasady-11-thumb.webp",
-        "original": "DJI_20260915163649_0433_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-11-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-12.webp",
-        "thumb": "/media/15-dum-a-fasady-12-thumb.webp",
-        "original": "DJI_20260915180651_0450_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-12-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-13.webp",
-        "thumb": "/media/15-dum-a-fasady-13-thumb.webp",
-        "original": "DJI_20260915180713_0452_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-13-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-14.webp",
-        "thumb": "/media/15-dum-a-fasady-14-thumb.webp",
-        "original": "DJI_20260915180737_0454_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-14-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-15.webp",
-        "thumb": "/media/15-dum-a-fasady-15-thumb.webp",
-        "original": "DJI_20260915180752_0458_D.jpg"
+        "thumb": "/media/15-dum-a-fasady-15-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-16.webp",
-        "thumb": "/media/15-dum-a-fasady-16-thumb.webp",
-        "original": "P1178658-HDR.jpg"
+        "thumb": "/media/15-dum-a-fasady-16-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-17.webp",
-        "thumb": "/media/15-dum-a-fasady-17-thumb.webp",
-        "original": "P1178914-HDR.jpg"
+        "thumb": "/media/15-dum-a-fasady-17-thumb.webp"
       },
       {
         "src": "/media/15-dum-a-fasady-18.webp",
-        "thumb": "/media/15-dum-a-fasady-18-thumb.webp",
-        "original": "P1178929-HDR.jpg"
+        "thumb": "/media/15-dum-a-fasady-18-thumb.webp"
       }
     ],
     "16-dvur-parkoviste-a-zelen": [
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-1.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-1-thumb.webp",
-        "original": "DJI_20260915163150_0408_D.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-1-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-2.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-2-thumb.webp",
-        "original": "DJI_20260915163730_0434_D.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-2-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-3.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-3-thumb.webp",
-        "original": "DJI_20260915163734_0435_D.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-3-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-4.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-4-thumb.webp",
-        "original": "DJI_20260915163819_0437_D.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-4-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-5.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-5-thumb.webp",
-        "original": "DJI_20260915163849_0440_D.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-5-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-6.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-6-thumb.webp",
-        "original": "P1178582-HDR.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-6-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-7.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-7-thumb.webp",
-        "original": "P1178587-HDR.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-7-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-8.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-8-thumb.webp",
-        "original": "P1178593-HDR.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-8-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-9.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-9-thumb.webp",
-        "original": "P1178598-HDR.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-9-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-10.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-10-thumb.webp",
-        "original": "P1178603-HDR.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-10-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-11.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-11-thumb.webp",
-        "original": "P1178603.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-11-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-12.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-12-thumb.webp",
-        "original": "P1178610.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-12-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-13.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-13-thumb.webp",
-        "original": "P1178620-HDR.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-13-thumb.webp"
       },
       {
         "src": "/media/16-dvur-parkoviste-a-zelen-14.webp",
-        "thumb": "/media/16-dvur-parkoviste-a-zelen-14-thumb.webp",
-        "original": "P1178625-HDR.jpg"
+        "thumb": "/media/16-dvur-parkoviste-a-zelen-14-thumb.webp"
       }
     ],
     "17-okoli-a-mesto": [
       {
         "src": "/media/17-okoli-a-mesto-1.webp",
-        "thumb": "/media/17-okoli-a-mesto-1-thumb.webp",
-        "original": "DJI_20260915162922_0396_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-1-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-2.webp",
-        "thumb": "/media/17-okoli-a-mesto-2-thumb.webp",
-        "original": "DJI_20260915162928_0397_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-2-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-3.webp",
-        "thumb": "/media/17-okoli-a-mesto-3-thumb.webp",
-        "original": "DJI_20260915163347_0419_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-3-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-4.webp",
-        "thumb": "/media/17-okoli-a-mesto-4-thumb.webp",
-        "original": "DJI_20260915163350_0420_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-4-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-5.webp",
-        "thumb": "/media/17-okoli-a-mesto-5-thumb.webp",
-        "original": "DJI_20260915163358_0421_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-5-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-6.webp",
-        "thumb": "/media/17-okoli-a-mesto-6-thumb.webp",
-        "original": "DJI_20260915163543_0428_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-6-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-7.webp",
-        "thumb": "/media/17-okoli-a-mesto-7-thumb.webp",
-        "original": "DJI_20260915180934_0468_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-7-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-8.webp",
-        "thumb": "/media/17-okoli-a-mesto-8-thumb.webp",
-        "original": "DJI_20260915181037_0472_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-8-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-9.webp",
-        "thumb": "/media/17-okoli-a-mesto-9-thumb.webp",
-        "original": "DJI_20260915181123_0475_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-9-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-10.webp",
-        "thumb": "/media/17-okoli-a-mesto-10-thumb.webp",
-        "original": "DJI_20260915181146_0477_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-10-thumb.webp"
       },
       {
         "src": "/media/17-okoli-a-mesto-11.webp",
-        "thumb": "/media/17-okoli-a-mesto-11-thumb.webp",
-        "original": "DJI_20260915181340_0483_D.jpg"
+        "thumb": "/media/17-okoli-a-mesto-11-thumb.webp"
       }
     ],
     "20-sklep-01": [
       {
         "src": "/media/20-sklep-01-1.webp",
-        "thumb": "/media/20-sklep-01-1-thumb.webp",
-        "original": "P1178834.jpg"
+        "thumb": "/media/20-sklep-01-1-thumb.webp"
       }
     ],
     "20-sklep-02": [
       {
         "src": "/media/20-sklep-02-1.webp",
-        "thumb": "/media/20-sklep-02-1-thumb.webp",
-        "original": "P1178840.jpg"
+        "thumb": "/media/20-sklep-02-1-thumb.webp"
       }
     ],
     "20-sklep-03": [
       {
         "src": "/media/20-sklep-03-1.webp",
-        "thumb": "/media/20-sklep-03-1-thumb.webp",
-        "original": "P1178844.jpg"
+        "thumb": "/media/20-sklep-03-1-thumb.webp"
       }
     ],
     "20-sklep-04": [
       {
         "src": "/media/20-sklep-04-1.webp",
-        "thumb": "/media/20-sklep-04-1-thumb.webp",
-        "original": "P1178850.jpg"
+        "thumb": "/media/20-sklep-04-1-thumb.webp"
       }
     ],
     "20-sklep-05": [
       {
         "src": "/media/20-sklep-05-1.webp",
-        "thumb": "/media/20-sklep-05-1-thumb.webp",
-        "original": "P1178854.jpg"
+        "thumb": "/media/20-sklep-05-1-thumb.webp"
       }
     ],
     "20-sklep-06": [
       {
         "src": "/media/20-sklep-06-1.webp",
-        "thumb": "/media/20-sklep-06-1-thumb.webp",
-        "original": "P1178861.jpg"
+        "thumb": "/media/20-sklep-06-1-thumb.webp"
       }
     ],
     "20-sklep-07": [
       {
         "src": "/media/20-sklep-07-1.webp",
-        "thumb": "/media/20-sklep-07-1-thumb.webp",
-        "original": "P1178866.jpg"
+        "thumb": "/media/20-sklep-07-1-thumb.webp"
       }
     ],
     "20-sklep-08": [
       {
         "src": "/media/20-sklep-08-1.webp",
-        "thumb": "/media/20-sklep-08-1-thumb.webp",
-        "original": "P1178869.jpg"
+        "thumb": "/media/20-sklep-08-1-thumb.webp"
       }
     ],
     "20-sklep-09": [
       {
         "src": "/media/20-sklep-09-1.webp",
-        "thumb": "/media/20-sklep-09-1-thumb.webp",
-        "original": "P1178874.jpg"
+        "thumb": "/media/20-sklep-09-1-thumb.webp"
       }
     ],
     "20-sklep-10": [
       {
         "src": "/media/20-sklep-10-1.webp",
-        "thumb": "/media/20-sklep-10-1-thumb.webp",
-        "original": "P1178879.jpg"
+        "thumb": "/media/20-sklep-10-1-thumb.webp"
       }
     ],
     "20-sklep-11": [
       {
         "src": "/media/20-sklep-11-1.webp",
-        "thumb": "/media/20-sklep-11-1-thumb.webp",
-        "original": "P1178884.jpg"
+        "thumb": "/media/20-sklep-11-1-thumb.webp"
       }
     ],
     "20-sklep-12": [
       {
         "src": "/media/20-sklep-12-1.webp",
-        "thumb": "/media/20-sklep-12-1-thumb.webp",
-        "original": "P1178889.jpg"
+        "thumb": "/media/20-sklep-12-1-thumb.webp"
       }
     ],
     "20-sklep-13": [
       {
         "src": "/media/20-sklep-13-1.webp",
-        "thumb": "/media/20-sklep-13-1-thumb.webp",
-        "original": "P1178894.jpg"
+        "thumb": "/media/20-sklep-13-1-thumb.webp"
       },
       {
         "src": "/media/20-sklep-13-2.webp",
-        "thumb": "/media/20-sklep-13-2-thumb.webp",
-        "original": "P1178899.jpg"
+        "thumb": "/media/20-sklep-13-2-thumb.webp"
       },
       {
         "src": "/media/20-sklep-13-3.webp",
-        "thumb": "/media/20-sklep-13-3-thumb.webp",
-        "original": "P1178904.jpg"
+        "thumb": "/media/20-sklep-13-3-thumb.webp"
       }
-    ],
-    "nove-foto-roztrid": []
+    ]
   },
   "reconstruction": [
     {
