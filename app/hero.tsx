@@ -16,7 +16,7 @@ const highlights = [
   {src: '/visualizations/staircase-r7-B-80ee5fe22d-1920.webp', alt: 'Vizualizace uklizeného schodiště s rostlinou a obrazem', label: 'Schodiště', className: 'detail', visualization: true, caption: 'Vizualizace úpravy schodiště · rostlina a obraz při zachování původního zábradlí a dispozice. Nejde o fotografii současného stavu.'},
 ].map(photo=>{
   const approved=photo.className==='room'?selectedLiving:photo.className==='detail'?selectedStaircase:undefined;
-  return approved?{...photo,src:approved.src,alt:approved.title+' — vizualizace',visualization:true,caption:approved.caption}:photo;
+  return approved?{...photo,src:approved.src,alt:approved.title+' — vizualizace',visualization:true,caption:approved.caption,original:approved.original}:photo;
 });
 
 function HeroBackdrop() {
@@ -34,7 +34,7 @@ function HeroBackdrop() {
   </>;
 }
 
-export function Hero({onGallery}: {onGallery: (title: string, photos: {src: string;caption?:string;visualization?:boolean}[]) => void}) {
+export function Hero({onGallery}: {onGallery: (title: string, photos: {src: string;caption?:string;visualization?:boolean;original?:string}[]) => void}) {
   const stack = useRef<HTMLDivElement>(null);
   const tilt = (event: PointerEvent<HTMLDivElement>) => {
     if (event.pointerType !== 'mouse' || !matchMedia('(prefers-reduced-motion: no-preference) and (hover: hover)').matches) return;

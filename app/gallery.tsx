@@ -4,9 +4,10 @@ import {useEffect, useRef, useState} from 'react';
 import {ArrowLeft, ArrowRight, ArrowUpRight, Images, Image as ImageIcon} from 'lucide-react';
 import {Photo} from './photo';
 import {AiBadge} from './ai-badge';
+import {BeforeAfterSlider} from './before-after-slider';
 import imageIndex from './image-index.json';
 
-export type GalleryPhoto = {src: string; thumb?: string; caption?: string; alt?: string; group?: string; visualization?: boolean};
+export type GalleryPhoto = {src: string; thumb?: string; caption?: string; alt?: string; group?: string; visualization?: boolean; original?: string};
 
 export function PhotoGallery({photos, title, index, onChange}: {
   photos: GalleryPhoto[]; title: string; index: number; onChange: (index: number) => void;
@@ -42,7 +43,7 @@ export function PhotoGallery({photos, title, index, onChange}: {
   if (!current) return <p className="photo-empty">Fotografie připravujeme.</p>;
 
   return <div className="photo-viewer" role="region" aria-label={`Fotogalerie: ${title}`} onKeyDown={e => {
-    if (overview || photos.length < 2) return;
+    if (overview || photos.length < 2 || (e.target as HTMLElement).matches('input[type="range"]')) return;
     if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
       e.preventDefault(); step(e.key === 'ArrowRight' ? 1 : -1);
     }
@@ -62,8 +63,7 @@ export function PhotoGallery({photos, title, index, onChange}: {
         touch.current = null;
         if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.4) step(dx < 0 ? 1 : -1);
       }} onTouchCancel={() => {touch.current = null;}}>
-      <Photo key={current.src} src={current.src} sizes="(max-width: 760px) 100vw, 90vw" alt={caption(current, active)} loading="eager" draggable={false}/>
-      {current.visualization&&<AiBadge className="ai-badge-gallery"/>}
+      {current.visualization&&current.original?<BeforeAfterSlider before={current.original} after={current.src} title={caption(current,active)} className="before-after-gallery"/>:<><Photo key={current.src} src={current.src} sizes="(max-width: 760px) 100vw, 90vw" alt={caption(current, active)} loading="eager" draggable={false}/>{current.visualization&&<AiBadge className="ai-badge-gallery"/>}</>}
       {photos.length > 1 && <><button className="photo-arrow photo-arrow-prev" onClick={() => step(-1)} aria-label="Předchozí fotografie"><ArrowLeft size={21}/></button><button className="photo-arrow photo-arrow-next" onClick={() => step(1)} aria-label="Další fotografie"><ArrowRight size={21}/></button></>}
     </div>}
     <div className="photo-toolbar">
