@@ -1,10 +1,11 @@
 'use client';
 
+import {Photo as ResponsivePhoto} from './photo';
 import {useEffect, useRef, useState, type PointerEvent} from 'react';
 import {ArrowDown, ArrowUpRight, Pause, Play} from 'lucide-react';
 import {siteConfig} from './site-config';
 
-const panorama = '/media/17-okoli-a-mesto-5.webp';
+const panorama = '/media/hero-varnsdorf-0411.webp';
 const highlights = [
   {src: '/media/15-dum-a-fasady-16.webp', alt: 'Obnovená fasáda domu Legií 2044', label: 'Legií 2044', className: 'facade'},
   {src: '/media/05-byt-5-3.webp', alt: 'Světlý pokoj s arkýřem', label: 'Prostor pro život', className: 'room'},
@@ -19,7 +20,7 @@ function HeroBackdrop() {
     if (!siteConfig.heroVideo || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     video.current?.play().catch(() => {});
   }, []);
-  if (!siteConfig.heroVideo || failed) return <img className="hero-panorama" src={panorama} alt="Varnsdorf a okolní krajina z dronu" fetchPriority="high" />;
+  if (!siteConfig.heroVideo || failed) return <ResponsivePhoto className="hero-panorama" src={panorama} sizes="100vw" loading="eager" alt="Varnsdorf a okolní krajina z dronu" fetchPriority="high" />;
   return <>
     <video ref={video} className="hero-panorama" src={siteConfig.heroVideo} poster={panorama} muted loop playsInline preload="metadata" onError={() => setFailed(true)} onPlay={() => setPlaying(true)} onPause={() => setPlaying(false)} aria-label="Videoprohlídka domu Legií 2044" />
     <button className="video-toggle" onClick={() => {if (playing) video.current?.pause(); else video.current?.play().catch(() => setFailed(true));}} aria-label={playing ? 'Pozastavit video' : 'Přehrát video'}>{playing ? <Pause size={17}/> : <Play size={17}/>}</button>
@@ -52,7 +53,7 @@ export function Hero({onGallery}: {onGallery: (title: string, photos: {src: stri
       <div className="hero-photo-stage" onPointerMove={tilt} onPointerLeave={reset}>
         <div className="hero-photo-stack" ref={stack}>
           {highlights.map((photo, index) => <button key={photo.className} className={`hero-photo-card hero-photo-${photo.className}`} aria-label={`Prohlédnout fotografie: ${photo.label}`} onClick={() => onGallery('Dům a jeho interiéry', [...highlights.slice(index), ...highlights.slice(0, index)])}>
-            <img src={photo.src} alt={photo.alt} width="1000" height="800" decoding="async"/>
+            <ResponsivePhoto sizes="(max-width:760px) 52vw, 30vw" loading="eager" src={photo.src} alt={photo.alt} width="1000" height="800" decoding="async"/>
             <span className="hero-photo-caption">{photo.label}<ArrowUpRight size={15}/></span>
           </button>)}
         </div>
