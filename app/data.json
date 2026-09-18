@@ -415,10 +415,25 @@
         {
           "src": "/media/12-komercni-prostor-2-7.webp",
           "thumb": "/media/12-komercni-prostor-2-7-thumb.webp"
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-7.webp",
+          "thumb": "/media/11-komercni-prostor-1-7-thumb.webp",
+          "caption": "Koupelna — ukázka shodného provedení z obchodu 01."
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-6.webp",
+          "thumb": "/media/11-komercni-prostor-1-6-thumb.webp",
+          "caption": "Samostatná toaleta — ukázka shodného provedení z obchodu 01."
+        },
+        {
+          "src": "/media/11-komercni-prostor-1-5.webp",
+          "thumb": "/media/11-komercni-prostor-1-5-thumb.webp",
+          "caption": "Sklad — ukázka shodného provedení z obchodu 01."
         }
       ],
       "plan": "/plany/np1.webp",
-      "description": "Obchodní prostor v přízemí s výlohou a samostatným vstupem z ulice. Prodejní plochu doplňuje kuchyňka, koupelna s WC a skladové zázemí."
+      "description": "Obchodní prostor v přízemí s výlohou a samostatným vstupem z ulice. Prodejní plochu doplňuje kuchyňka, koupelna, samostatné WC a sklad."
     },
     {
       "id": "puda",
@@ -597,6 +612,21 @@
       {
         "src": "/media/12-komercni-prostor-2-7.webp",
         "thumb": "/media/12-komercni-prostor-2-7-thumb.webp"
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-7.webp",
+        "thumb": "/media/11-komercni-prostor-1-7-thumb.webp",
+        "caption": "Koupelna — ukázka shodného provedení z obchodu 01."
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-6.webp",
+        "thumb": "/media/11-komercni-prostor-1-6-thumb.webp",
+        "caption": "Samostatná toaleta — ukázka shodného provedení z obchodu 01."
+      },
+      {
+        "src": "/media/11-komercni-prostor-1-5.webp",
+        "thumb": "/media/11-komercni-prostor-1-5-thumb.webp",
+        "caption": "Sklad — ukázka shodného provedení z obchodu 01."
       }
     ],
     "13-dilna": [
