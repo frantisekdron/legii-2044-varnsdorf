@@ -1433,11 +1433,11 @@
     "srcSet": "/visualizations/workshop-r7-B-9e4c3d8087-640.webp 640w, /visualizations/workshop-r7-B-9e4c3d8087-1280.webp 1280w, /visualizations/workshop-r7-B-9e4c3d8087-1920.webp 1920w",
     "preview": "/visualizations/workshop-r7-B-9e4c3d8087-1280.webp"
   },
-  "/visualizations/staircase-r7-B-80ee5fe22d-1920.webp": {
-    "width": 1920,
-    "height": 1288,
-    "srcSet": "/visualizations/staircase-r7-B-80ee5fe22d-640.webp 640w, /visualizations/staircase-r7-B-80ee5fe22d-1280.webp 1280w, /visualizations/staircase-r7-B-80ee5fe22d-1920.webp 1920w",
-    "preview": "/visualizations/staircase-r7-B-80ee5fe22d-1280.webp"
+  "/visualizations/staircase-r8-B-b01fab8d-1920.webp": {
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/visualizations/staircase-r8-B-b01fab8d-640.webp 640w, /visualizations/staircase-r8-B-b01fab8d-1280.webp 1280w, /visualizations/staircase-r8-B-b01fab8d-1920.webp 1536w",
+    "preview": "/visualizations/staircase-r8-B-b01fab8d-1280.webp"
   },
   "/visualizations/entry-r7-C-36868aa597-1920.webp": {
     "width": 1920,

@@ -24,7 +24,10 @@ const visualizationUnitId=(unit:Unit)=>{
  const number=Number(unit.id.replace('byt-',''));
  return `byt-${((number-1)%3)+1}`;
 };
-const cardVisualization=(unit:Unit)=>visualizations.find(v=>v.unitIds.includes(visualizationUnitId(unit))&&v.sceneId.endsWith('-living'));
+const cardVisualization=(unit:Unit)=>{
+ if(unit.kind==='byt'&&Number(unit.id.replace('byt-',''))>3)return undefined;
+ return visualizations.find(v=>v.unitIds.includes(visualizationUnitId(unit))&&(unit.kind==='byt'?v.sceneId.endsWith('-living'):true));
+};
 export default function Home(){
  const [design,setDesign]=useState(1),[chooser,setChooser]=useState(false),[filter,setFilter]=useState('vse'),[selected,setSelected]=useState<Unit|null>(null),[gallery,setGallery]=useState<{title:string;photos:Photo[]}|null>(null),[photo,setPhoto]=useState(0),[panel,setPanel]=useState('fotografie'),[menu,setMenu]=useState(false);
  const chooserTriggerRef=useRef<HTMLElement|null>(null),mediaTriggerRef=useRef<HTMLElement|null>(null),unitsSectionRef=useRef<HTMLElement|null>(null);
@@ -38,8 +41,9 @@ export default function Home(){
  const closeUnit=()=>{setSelected(null);if(location.hash.startsWith('#jednotka-'))history.replaceState(null,'',location.pathname+location.search+'#jednotky')};
  const openGallery=(title:string,photos:Photo[],start=0)=>{if(!selected&&!gallery)mediaTriggerRef.current=activeElement();closeUnit();setPhoto(start);setPanel('fotografie');setGallery({title,photos})};
  const restoreFocus=(ref:{current:HTMLElement|null},fallback?:HTMLElement|null)=>(event:Event)=>{event.preventDefault();(ref.current||fallback)?.focus()};
- const photos:Photo[]=selected?.gallery||gallery?.photos||[];
  const unitVisualizations=selected?visualizations.filter(v=>v.unitIds.includes(visualizationUnitId(selected))):[];
+ const galleryVisualizations:Photo[]=unitVisualizations.map(v=>({src:v.src,thumb:v.thumb,caption:v.title+' — '+v.caption,visualization:true,original:v.original}));
+ const photos:Photo[]=selected?[...selected.gallery,...galleryVisualizations]:gallery?.photos||[];
  const atticVisualizations=visualizations.filter(v=>v.unitIds.includes('puda'));
  const visible=units.filter(u=>filter==='vse'||u.kind===filter);
  return <div className={'site design-'+design}>

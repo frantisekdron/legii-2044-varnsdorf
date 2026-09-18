@@ -332,18 +332,18 @@
       "caption": "Návrh možného vybavení."
     },
     {
-      "id": "staircase-r7-B-80ee5fe22d",
+      "id": "staircase-r8-B-b01fab8d",
       "sceneId": "staircase",
       "title": "Schodiště",
       "category": "zazemi",
       "variant": "B",
-      "revision": 7,
+      "revision": 8,
       "unitIds": [],
       "original": "/visualizations/staircase-original-7c90dab59df7-1920.webp",
-      "src": "/visualizations/staircase-r7-B-80ee5fe22d-1920.webp",
-      "thumb": "/visualizations/staircase-r7-B-80ee5fe22d-640.webp",
-      "srcSet": "/visualizations/staircase-r7-B-80ee5fe22d-640.webp 640w, /visualizations/staircase-r7-B-80ee5fe22d-1280.webp 1280w, /visualizations/staircase-r7-B-80ee5fe22d-1920.webp 1920w",
-      "caption": "Návrh možného vybavení."
+      "src": "/visualizations/staircase-r8-B-b01fab8d-1920.webp",
+      "thumb": "/visualizations/staircase-r8-B-b01fab8d-640.webp",
+      "srcSet": "/visualizations/staircase-r8-B-b01fab8d-640.webp 640w, /visualizations/staircase-r8-B-b01fab8d-1280.webp 1280w, /visualizations/staircase-r8-B-b01fab8d-1920.webp 1536w",
+      "caption": "Návrh čistého schodiště s obrazem a rostlinou; bez přidaných dveří."
     },
     {
       "id": "entry-r7-C-36868aa597",
