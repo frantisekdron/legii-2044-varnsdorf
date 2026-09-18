@@ -12,7 +12,7 @@ const selectedStaircase=visualizations.find(v=>v.sceneId==='staircase');
 const highlights = [
   {src: '/media/15-dum-a-fasady-16.webp', alt: 'Obnovená fasáda domu Legií 2044', label: 'Legií 2044', className: 'facade'},
   {src: '/media/hero-living-visualization-typ03-a.webp', alt: 'Vizualizace obývacího pokoje s kuchyní ve skandinávském stylu', label: 'Prostor pro život', className: 'room', visualization: true, caption: 'Vizualizace možného vybavení · obývací pokoj s kuchyní, typ 3, varianta A. Nejde o fotografii současného stavu.'},
-  {src: '/media/00-spolecne-prostory-2.webp', alt: 'Obnovené schodiště s původním zábradlím', label: 'Schodiště', className: 'detail'},
+  {src: '/media/hero-staircase-staged-r5-a-1920.webp', alt: 'Vizualizace uklizeného schodiště s rostlinou a obrazem', label: 'Schodiště', className: 'detail', visualization: true, caption: 'Vizualizace úpravy schodiště · rostlina a obraz při zachování původního zábradlí a dispozice. Nejde o fotografii současného stavu.'},
 ].map(photo=>{
   const approved=photo.className==='room'?selectedLiving:photo.className==='detail'?selectedStaircase:undefined;
   return approved?{...photo,src:approved.src,alt:approved.title+' — vizualizace',visualization:true,caption:approved.caption}:photo;
