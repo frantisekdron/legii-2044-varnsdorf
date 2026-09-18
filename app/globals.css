@@ -169,3 +169,5 @@ body{background:var(--paper);color:var(--ink)}.site{background:var(--paper);colo
 
 /* One shared introduction for the location copy and landscape photographs. */
 .neighborhood .landscape-story{margin-top:0}.location-heading{margin-bottom:24px}.location-actions{display:flex;flex-wrap:wrap;gap:12px 28px}.location-actions .text-link{margin-top:16px;min-height:44px}
+
+footer{flex-wrap:wrap}footer .footer-credit{flex-basis:100%;text-align:center;font-size:11px;letter-spacing:.03em;color:var(--caption);padding-top:20px;border-top:1px solid var(--line)}footer .footer-credit span{color:var(--ink)}footer .footer-credit:hover span{text-decoration:underline;text-underline-offset:3px}
