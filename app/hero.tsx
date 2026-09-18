@@ -8,7 +8,7 @@ import {siteConfig} from './site-config';
 const panorama = '/media/hero-varnsdorf-0411.webp';
 const highlights = [
   {src: '/media/15-dum-a-fasady-16.webp', alt: 'Obnovená fasáda domu Legií 2044', label: 'Legií 2044', className: 'facade'},
-  {src: '/media/05-byt-5-3.webp', alt: 'Světlý pokoj s arkýřem', label: 'Prostor pro život', className: 'room'},
+  {src: '/media/hero-living-visualization-typ03-a.webp', alt: 'Vizualizace obývacího pokoje s kuchyní ve skandinávském stylu', label: 'Prostor pro život', className: 'room', visualization: true, caption: 'Vizualizace možného vybavení · obývací pokoj s kuchyní, typ 3, varianta A. Nejde o fotografii současného stavu.'},
   {src: '/media/00-spolecne-prostory-2.webp', alt: 'Obnovené schodiště s původním zábradlím', label: 'Schodiště', className: 'detail'},
 ];
 
@@ -27,7 +27,7 @@ function HeroBackdrop() {
   </>;
 }
 
-export function Hero({onGallery}: {onGallery: (title: string, photos: {src: string}[]) => void}) {
+export function Hero({onGallery}: {onGallery: (title: string, photos: {src: string;caption?:string}[]) => void}) {
   const stack = useRef<HTMLDivElement>(null);
   const tilt = (event: PointerEvent<HTMLDivElement>) => {
     if (event.pointerType !== 'mouse' || !matchMedia('(prefers-reduced-motion: no-preference) and (hover: hover)').matches) return;
@@ -52,8 +52,9 @@ export function Hero({onGallery}: {onGallery: (title: string, photos: {src: stri
       </div>
       <div className="hero-photo-stage" onPointerMove={tilt} onPointerLeave={reset}>
         <div className="hero-photo-stack" ref={stack}>
-          {highlights.map((photo, index) => <button key={photo.className} className={`hero-photo-card hero-photo-${photo.className}`} aria-label={`Prohlédnout fotografie: ${photo.label}`} onClick={() => onGallery('Dům a jeho interiéry', [...highlights.slice(index), ...highlights.slice(0, index)])}>
+          {highlights.map((photo, index) => <button key={photo.className} className={`hero-photo-card hero-photo-${photo.className}`} aria-label={`${photo.visualization?'Prohlédnout vizualizaci':'Prohlédnout fotografie'}: ${photo.label}`} onClick={() => onGallery('Dům a jeho interiéry', [...highlights.slice(index), ...highlights.slice(0, index)])}>
             <ResponsivePhoto sizes="(max-width:760px) 52vw, 30vw" loading="eager" src={photo.src} alt={photo.alt} width="1000" height="800" decoding="async"/>
+            {photo.visualization&&<span className="hero-visualization-label">Vizualizace</span>}
             <span className="hero-photo-caption">{photo.label}<ArrowUpRight size={15}/></span>
           </button>)}
         </div>
