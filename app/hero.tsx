@@ -4,13 +4,19 @@ import {Photo as ResponsivePhoto} from './photo';
 import {useEffect, useRef, useState, type PointerEvent} from 'react';
 import {ArrowDown, ArrowUpRight, Pause, Play} from 'lucide-react';
 import {siteConfig} from './site-config';
+import {visualizations} from './visualizations';
 
 const panorama = '/media/hero-varnsdorf-0411.webp';
+const selectedLiving=visualizations.find(v=>v.sceneId==='typ03-living')||visualizations.find(v=>/^typ\d+-living$/.test(v.sceneId));
+const selectedStaircase=visualizations.find(v=>v.sceneId==='staircase');
 const highlights = [
   {src: '/media/15-dum-a-fasady-16.webp', alt: 'Obnovená fasáda domu Legií 2044', label: 'Legií 2044', className: 'facade'},
   {src: '/media/hero-living-visualization-typ03-a.webp', alt: 'Vizualizace obývacího pokoje s kuchyní ve skandinávském stylu', label: 'Prostor pro život', className: 'room', visualization: true, caption: 'Vizualizace možného vybavení · obývací pokoj s kuchyní, typ 3, varianta A. Nejde o fotografii současného stavu.'},
   {src: '/media/00-spolecne-prostory-2.webp', alt: 'Obnovené schodiště s původním zábradlím', label: 'Schodiště', className: 'detail'},
-];
+].map(photo=>{
+  const approved=photo.className==='room'?selectedLiving:photo.className==='detail'?selectedStaircase:undefined;
+  return approved?{...photo,src:approved.src,alt:approved.title+' — vizualizace',visualization:true,caption:approved.caption}:photo;
+});
 
 function HeroBackdrop() {
   const video = useRef<HTMLVideoElement>(null);
