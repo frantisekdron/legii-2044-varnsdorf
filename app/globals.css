@@ -166,3 +166,6 @@ body{background:var(--paper);color:var(--ink)}.site{background:var(--paper);colo
  .contact-sketch img{width:680px;height:auto;right:-65px;bottom:5px;object-fit:contain}
 }
 @media(forced-colors:active){.sketch-backdrop{display:none}}
+
+/* One shared introduction for the location copy and landscape photographs. */
+.neighborhood .landscape-story{margin-top:0}.location-heading{margin-bottom:24px}.location-actions{display:flex;flex-wrap:wrap;gap:12px 28px}.location-actions .text-link{margin-top:16px;min-height:44px}
