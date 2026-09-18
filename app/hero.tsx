@@ -7,12 +7,12 @@ import {siteConfig} from './site-config';
 import {visualizations} from './visualizations';
 
 const panorama = '/media/hero-varnsdorf-0411.webp';
-const selectedLiving=visualizations.find(v=>v.sceneId==='typ03-living')||visualizations.find(v=>/^typ\d+-living$/.test(v.sceneId));
+const selectedLiving=visualizations.find(v=>v.sceneId==='typ02-bedroom')||visualizations.find(v=>/^typ\d+-living$/.test(v.sceneId));
 const selectedStaircase=visualizations.find(v=>v.sceneId==='staircase');
 const highlights = [
   {src: '/media/15-dum-a-fasady-16.webp', alt: 'Obnovená fasáda domu Legií 2044', label: 'Legií 2044', className: 'facade'},
-  {src: '/media/hero-living-visualization-typ03-a.webp', alt: 'Vizualizace obývacího pokoje s kuchyní ve skandinávském stylu', label: 'Prostor pro život', className: 'room', visualization: true, caption: 'Vizualizace možného vybavení · obývací pokoj s kuchyní, typ 3, varianta A. Nejde o fotografii současného stavu.'},
-  {src: '/media/hero-staircase-staged-r5-a-1920.webp', alt: 'Vizualizace uklizeného schodiště s rostlinou a obrazem', label: 'Schodiště', className: 'detail', visualization: true, caption: 'Vizualizace úpravy schodiště · rostlina a obraz při zachování původního zábradlí a dispozice. Nejde o fotografii současného stavu.'},
+  {src: '/visualizations/typ02-bedroom-r7-A-fb147bc87a-1920.webp', alt: 'Vizualizace zařízené ložnice s arkýřovými okny', label: 'Prostor pro život', className: 'room', visualization: true, caption: 'Vizualizace možného vybavení · ložnice s arkýřem, typ 2, varianta A. Nejde o fotografii současného stavu.'},
+  {src: '/visualizations/staircase-r7-B-80ee5fe22d-1920.webp', alt: 'Vizualizace uklizeného schodiště s rostlinou a obrazem', label: 'Schodiště', className: 'detail', visualization: true, caption: 'Vizualizace úpravy schodiště · rostlina a obraz při zachování původního zábradlí a dispozice. Nejde o fotografii současného stavu.'},
 ].map(photo=>{
   const approved=photo.className==='room'?selectedLiving:photo.className==='detail'?selectedStaircase:undefined;
   return approved?{...photo,src:approved.src,alt:approved.title+' — vizualizace',visualization:true,caption:approved.caption}:photo;
