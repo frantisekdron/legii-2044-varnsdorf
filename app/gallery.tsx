@@ -3,9 +3,10 @@
 import {useEffect, useRef, useState} from 'react';
 import {ArrowLeft, ArrowRight, ArrowUpRight, Images, Image as ImageIcon} from 'lucide-react';
 import {Photo} from './photo';
+import {AiBadge} from './ai-badge';
 import imageIndex from './image-index.json';
 
-export type GalleryPhoto = {src: string; thumb?: string; caption?: string; alt?: string; group?: string};
+export type GalleryPhoto = {src: string; thumb?: string; caption?: string; alt?: string; group?: string; visualization?: boolean};
 
 export function PhotoGallery({photos, title, index, onChange}: {
   photos: GalleryPhoto[]; title: string; index: number; onChange: (index: number) => void;
@@ -49,6 +50,7 @@ export function PhotoGallery({photos, title, index, onChange}: {
     {overview ? <div className="photo-overview" aria-label="Přehled všech fotografií">
       {photos.map((photo, i) => <button key={`${photo.src}-${i}`} aria-label={`Zobrazit fotografii ${i + 1}: ${caption(photo, i)}`} onClick={() => {onChange(i); setOverview(false);}}>
         <Photo src={photo.thumb || photo.src} sizes="(max-width: 760px) 45vw, 25vw" alt=""/>
+        {photo.visualization&&<AiBadge className="ai-badge-overview"/>}
         <span><b>{String(i + 1).padStart(2, '0')}</b>{caption(photo, i)}</span>
       </button>)}
     </div> : <div className="photo-canvas" tabIndex={0} aria-label="Fotografie. Použijte šipky vlevo a vpravo."
@@ -61,6 +63,7 @@ export function PhotoGallery({photos, title, index, onChange}: {
         if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.4) step(dx < 0 ? 1 : -1);
       }} onTouchCancel={() => {touch.current = null;}}>
       <Photo key={current.src} src={current.src} sizes="(max-width: 760px) 100vw, 90vw" alt={caption(current, active)} loading="eager" draggable={false}/>
+      {current.visualization&&<AiBadge className="ai-badge-gallery"/>}
       {photos.length > 1 && <><button className="photo-arrow photo-arrow-prev" onClick={() => step(-1)} aria-label="Předchozí fotografie"><ArrowLeft size={21}/></button><button className="photo-arrow photo-arrow-next" onClick={() => step(1)} aria-label="Další fotografie"><ArrowRight size={21}/></button></>}
     </div>}
     <div className="photo-toolbar">
@@ -72,7 +75,7 @@ export function PhotoGallery({photos, title, index, onChange}: {
     </div>
     {!overview && photos.length > 1 && <div className="photo-filmstrip" ref={rail} aria-label="Náhledy fotografií">
       {photos.map((photo, i) => <button key={`${photo.src}-${i}`} className={i === active ? 'is-current' : ''} onClick={() => onChange(i)} aria-label={`Fotografie ${i + 1}: ${caption(photo, i)}`} aria-pressed={i === active}>
-        <Photo sizes="112px" src={photo.thumb || photo.src} alt=""/><span>{String(i + 1).padStart(2, '0')}</span>
+        <Photo sizes="112px" src={photo.thumb || photo.src} alt=""/>{photo.visualization&&<AiBadge className="ai-badge-filmstrip"/>}<span>{String(i + 1).padStart(2, '0')}</span>
       </button>)}
     </div>}
   </div>;

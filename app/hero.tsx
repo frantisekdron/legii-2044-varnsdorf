@@ -5,6 +5,7 @@ import {useEffect, useRef, useState, type PointerEvent} from 'react';
 import {ArrowDown, ArrowUpRight, Pause, Play} from 'lucide-react';
 import {siteConfig} from './site-config';
 import {visualizations} from './visualizations';
+import {AiBadge} from './ai-badge';
 
 const panorama = '/media/hero-varnsdorf-0411.webp';
 const selectedLiving=visualizations.find(v=>v.sceneId==='typ02-bedroom')||visualizations.find(v=>/^typ\d+-living$/.test(v.sceneId));
@@ -33,7 +34,7 @@ function HeroBackdrop() {
   </>;
 }
 
-export function Hero({onGallery}: {onGallery: (title: string, photos: {src: string;caption?:string}[]) => void}) {
+export function Hero({onGallery}: {onGallery: (title: string, photos: {src: string;caption?:string;visualization?:boolean}[]) => void}) {
   const stack = useRef<HTMLDivElement>(null);
   const tilt = (event: PointerEvent<HTMLDivElement>) => {
     if (event.pointerType !== 'mouse' || !matchMedia('(prefers-reduced-motion: no-preference) and (hover: hover)').matches) return;
@@ -60,7 +61,7 @@ export function Hero({onGallery}: {onGallery: (title: string, photos: {src: stri
         <div className="hero-photo-stack" ref={stack}>
           {highlights.map((photo, index) => <button key={photo.className} className={`hero-photo-card hero-photo-${photo.className}`} aria-label={`${photo.visualization?'Prohlédnout vizualizaci':'Prohlédnout fotografie'}: ${photo.label}`} onClick={() => onGallery('Dům a jeho interiéry', [...highlights.slice(index), ...highlights.slice(0, index)])}>
             <ResponsivePhoto sizes="(max-width:760px) 52vw, 30vw" loading="eager" src={photo.src} alt={photo.alt} width="1000" height="800" decoding="async"/>
-            {photo.visualization&&<span className="hero-visualization-label">Vizualizace</span>}
+            {photo.visualization&&<AiBadge className="ai-badge-hero"/>}
             <span className="hero-photo-caption">{photo.label}<ArrowUpRight size={15}/></span>
           </button>)}
         </div>
