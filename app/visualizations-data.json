@@ -1,1 +1,363 @@
-{"projectId":"legii-2044","items":[]}
+{
+  "projectId": "legii-2044",
+  "items": [
+    {
+      "id": "typ01-living-r7-B-759644c61f",
+      "sceneId": "typ01-living",
+      "title": "Byt · typ 1 · Obývací pokoj s kuchyní",
+      "category": "bydleni",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "byt-1"
+      ],
+      "original": "/visualizations/typ01-living-original-ea96a14373bd-1920.webp",
+      "src": "/visualizations/typ01-living-r7-B-759644c61f-1920.webp",
+      "thumb": "/visualizations/typ01-living-r7-B-759644c61f-640.webp",
+      "srcSet": "/visualizations/typ01-living-r7-B-759644c61f-640.webp 640w, /visualizations/typ01-living-r7-B-759644c61f-1280.webp 1280w, /visualizations/typ01-living-r7-B-759644c61f-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ01-bedroom-r7-B-2d35dfa3ca",
+      "sceneId": "typ01-bedroom",
+      "title": "Byt · typ 1 · Ložnice",
+      "category": "bydleni",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "byt-1"
+      ],
+      "original": "/visualizations/typ01-bedroom-original-8c416571c2f8-1920.webp",
+      "src": "/visualizations/typ01-bedroom-r7-B-2d35dfa3ca-1920.webp",
+      "thumb": "/visualizations/typ01-bedroom-r7-B-2d35dfa3ca-640.webp",
+      "srcSet": "/visualizations/typ01-bedroom-r7-B-2d35dfa3ca-640.webp 640w, /visualizations/typ01-bedroom-r7-B-2d35dfa3ca-1280.webp 1280w, /visualizations/typ01-bedroom-r7-B-2d35dfa3ca-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ01-hall-r7-B-aba700be62",
+      "sceneId": "typ01-hall",
+      "title": "Byt · typ 1 · Předsíň",
+      "category": "bydleni",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "byt-1"
+      ],
+      "original": "/visualizations/typ01-hall-original-d3b45a92620a-1920.webp",
+      "src": "/visualizations/typ01-hall-r7-B-aba700be62-1920.webp",
+      "thumb": "/visualizations/typ01-hall-r7-B-aba700be62-640.webp",
+      "srcSet": "/visualizations/typ01-hall-r7-B-aba700be62-640.webp 640w, /visualizations/typ01-hall-r7-B-aba700be62-1280.webp 1280w, /visualizations/typ01-hall-r7-B-aba700be62-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ01-bathroom-r7-B-c82bb55bba",
+      "sceneId": "typ01-bathroom",
+      "title": "Byt · typ 1 · Koupelna",
+      "category": "bydleni",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "byt-1"
+      ],
+      "original": "/visualizations/typ01-bathroom-original-7b809684c903-1920.webp",
+      "src": "/visualizations/typ01-bathroom-r7-B-c82bb55bba-1920.webp",
+      "thumb": "/visualizations/typ01-bathroom-r7-B-c82bb55bba-640.webp",
+      "srcSet": "/visualizations/typ01-bathroom-r7-B-c82bb55bba-640.webp 640w, /visualizations/typ01-bathroom-r7-B-c82bb55bba-1280.webp 1280w, /visualizations/typ01-bathroom-r7-B-c82bb55bba-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ02-living-r7-A-c95aadd1ca",
+      "sceneId": "typ02-living",
+      "title": "Byt · typ 2 · Obývací pokoj s kuchyní",
+      "category": "bydleni",
+      "variant": "A",
+      "revision": 7,
+      "unitIds": [
+        "byt-2"
+      ],
+      "original": "/visualizations/typ02-living-original-015bd3a2dc4c-1920.webp",
+      "src": "/visualizations/typ02-living-r7-A-c95aadd1ca-1920.webp",
+      "thumb": "/visualizations/typ02-living-r7-A-c95aadd1ca-640.webp",
+      "srcSet": "/visualizations/typ02-living-r7-A-c95aadd1ca-640.webp 640w, /visualizations/typ02-living-r7-A-c95aadd1ca-1280.webp 1280w, /visualizations/typ02-living-r7-A-c95aadd1ca-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ02-bedroom-r7-A-fb147bc87a",
+      "sceneId": "typ02-bedroom",
+      "title": "Byt · typ 2 · Ložnice s arkýřem",
+      "category": "bydleni",
+      "variant": "A",
+      "revision": 7,
+      "unitIds": [
+        "byt-2"
+      ],
+      "original": "/visualizations/typ02-bedroom-original-b2579bd2c569-1920.webp",
+      "src": "/visualizations/typ02-bedroom-r7-A-fb147bc87a-1920.webp",
+      "thumb": "/visualizations/typ02-bedroom-r7-A-fb147bc87a-640.webp",
+      "srcSet": "/visualizations/typ02-bedroom-r7-A-fb147bc87a-640.webp 640w, /visualizations/typ02-bedroom-r7-A-fb147bc87a-1280.webp 1280w, /visualizations/typ02-bedroom-r7-A-fb147bc87a-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ02-hall-r7-A-df1becee84",
+      "sceneId": "typ02-hall",
+      "title": "Byt · typ 2 · Předsíň",
+      "category": "bydleni",
+      "variant": "A",
+      "revision": 7,
+      "unitIds": [
+        "byt-2"
+      ],
+      "original": "/visualizations/typ02-hall-original-125caf115d40-1920.webp",
+      "src": "/visualizations/typ02-hall-r7-A-df1becee84-1920.webp",
+      "thumb": "/visualizations/typ02-hall-r7-A-df1becee84-640.webp",
+      "srcSet": "/visualizations/typ02-hall-r7-A-df1becee84-640.webp 640w, /visualizations/typ02-hall-r7-A-df1becee84-1280.webp 1280w, /visualizations/typ02-hall-r7-A-df1becee84-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ02-bathroom-r7-A-d54e3918d5",
+      "sceneId": "typ02-bathroom",
+      "title": "Byt · typ 2 · Koupelna",
+      "category": "bydleni",
+      "variant": "A",
+      "revision": 7,
+      "unitIds": [
+        "byt-2"
+      ],
+      "original": "/visualizations/typ02-bathroom-original-e654dfc94ff8-1920.webp",
+      "src": "/visualizations/typ02-bathroom-r7-A-d54e3918d5-1920.webp",
+      "thumb": "/visualizations/typ02-bathroom-r7-A-d54e3918d5-640.webp",
+      "srcSet": "/visualizations/typ02-bathroom-r7-A-d54e3918d5-640.webp 640w, /visualizations/typ02-bathroom-r7-A-d54e3918d5-1280.webp 1280w, /visualizations/typ02-bathroom-r7-A-d54e3918d5-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ03-living-r7-B-55b4b0ceab",
+      "sceneId": "typ03-living",
+      "title": "Byt · typ 3 · Obývací pokoj s kuchyní",
+      "category": "bydleni",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "byt-3"
+      ],
+      "original": "/visualizations/typ03-living-original-ff8fc818170c-1920.webp",
+      "src": "/visualizations/typ03-living-r7-B-55b4b0ceab-1920.webp",
+      "thumb": "/visualizations/typ03-living-r7-B-55b4b0ceab-640.webp",
+      "srcSet": "/visualizations/typ03-living-r7-B-55b4b0ceab-640.webp 640w, /visualizations/typ03-living-r7-B-55b4b0ceab-1280.webp 1280w, /visualizations/typ03-living-r7-B-55b4b0ceab-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ03-kitchen-detail-r7-B-161b24c0b4",
+      "sceneId": "typ03-kitchen-detail",
+      "title": "Byt · typ 3 · Kuchyně · druhý pohled",
+      "category": "bydleni",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "byt-3"
+      ],
+      "original": "/visualizations/typ03-kitchen-detail-original-158835e37566-1920.webp",
+      "src": "/visualizations/typ03-kitchen-detail-r7-B-161b24c0b4-1920.webp",
+      "thumb": "/visualizations/typ03-kitchen-detail-r7-B-161b24c0b4-640.webp",
+      "srcSet": "/visualizations/typ03-kitchen-detail-r7-B-161b24c0b4-640.webp 640w, /visualizations/typ03-kitchen-detail-r7-B-161b24c0b4-1280.webp 1280w, /visualizations/typ03-kitchen-detail-r7-B-161b24c0b4-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ03-hall-r7-B-750e8e3462",
+      "sceneId": "typ03-hall",
+      "title": "Byt · typ 3 · Předsíň",
+      "category": "bydleni",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "byt-3"
+      ],
+      "original": "/visualizations/typ03-hall-original-504e19105663-1920.webp",
+      "src": "/visualizations/typ03-hall-r7-B-750e8e3462-1920.webp",
+      "thumb": "/visualizations/typ03-hall-r7-B-750e8e3462-640.webp",
+      "srcSet": "/visualizations/typ03-hall-r7-B-750e8e3462-640.webp 640w, /visualizations/typ03-hall-r7-B-750e8e3462-1280.webp 1280w, /visualizations/typ03-hall-r7-B-750e8e3462-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "typ03-bathroom-r7-B-cb6ae21e37",
+      "sceneId": "typ03-bathroom",
+      "title": "Byt · typ 3 · Koupelna",
+      "category": "bydleni",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "byt-3"
+      ],
+      "original": "/visualizations/typ03-bathroom-original-d174bd7a592e-1920.webp",
+      "src": "/visualizations/typ03-bathroom-r7-B-cb6ae21e37-1920.webp",
+      "thumb": "/visualizations/typ03-bathroom-r7-B-cb6ae21e37-640.webp",
+      "srcSet": "/visualizations/typ03-bathroom-r7-B-cb6ae21e37-640.webp 640w, /visualizations/typ03-bathroom-r7-B-cb6ae21e37-1280.webp 1280w, /visualizations/typ03-bathroom-r7-B-cb6ae21e37-1920.webp 1920w",
+      "caption": "Typový návrh vybavení; skutečný stav a výhledy se liší podle jednotky."
+    },
+    {
+      "id": "shop01-cafe-r7-B-1d1d8d747d",
+      "sceneId": "shop01-cafe",
+      "title": "Obchod 1 · Kavárna",
+      "category": "obchody",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "obchod-1"
+      ],
+      "original": "/visualizations/shop01-cafe-original-fd62b5bd1084-1920.webp",
+      "src": "/visualizations/shop01-cafe-r7-B-1d1d8d747d-1920.webp",
+      "thumb": "/visualizations/shop01-cafe-r7-B-1d1d8d747d-640.webp",
+      "srcSet": "/visualizations/shop01-cafe-r7-B-1d1d8d747d-640.webp 640w, /visualizations/shop01-cafe-r7-B-1d1d8d747d-1280.webp 1280w, /visualizations/shop01-cafe-r7-B-1d1d8d747d-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "shop01-showroom-r7-B-bcb437f755",
+      "sceneId": "shop01-showroom",
+      "title": "Obchod 1 · Showroom",
+      "category": "obchody",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [
+        "obchod-1"
+      ],
+      "original": "/visualizations/shop01-showroom-original-fd62b5bd1084-1920.webp",
+      "src": "/visualizations/shop01-showroom-r7-B-bcb437f755-1920.webp",
+      "thumb": "/visualizations/shop01-showroom-r7-B-bcb437f755-640.webp",
+      "srcSet": "/visualizations/shop01-showroom-r7-B-bcb437f755-640.webp 640w, /visualizations/shop01-showroom-r7-B-bcb437f755-1280.webp 1280w, /visualizations/shop01-showroom-r7-B-bcb437f755-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "shop01-boutique-r7-C-c4754aa3af",
+      "sceneId": "shop01-boutique",
+      "title": "Obchod 1 · Butik",
+      "category": "obchody",
+      "variant": "C",
+      "revision": 7,
+      "unitIds": [
+        "obchod-1"
+      ],
+      "original": "/visualizations/shop01-boutique-original-fd62b5bd1084-1920.webp",
+      "src": "/visualizations/shop01-boutique-r7-C-c4754aa3af-1920.webp",
+      "thumb": "/visualizations/shop01-boutique-r7-C-c4754aa3af-640.webp",
+      "srcSet": "/visualizations/shop01-boutique-r7-C-c4754aa3af-640.webp 640w, /visualizations/shop01-boutique-r7-C-c4754aa3af-1280.webp 1280w, /visualizations/shop01-boutique-r7-C-c4754aa3af-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "shop02-office-r7-A-23120f7f25",
+      "sceneId": "shop02-office",
+      "title": "Obchod 2 · Kancelář",
+      "category": "obchody",
+      "variant": "A",
+      "revision": 7,
+      "unitIds": [
+        "obchod-2"
+      ],
+      "original": "/visualizations/shop02-office-original-021f4acebbb1-1920.webp",
+      "src": "/visualizations/shop02-office-r7-A-23120f7f25-1920.webp",
+      "thumb": "/visualizations/shop02-office-r7-A-23120f7f25-640.webp",
+      "srcSet": "/visualizations/shop02-office-r7-A-23120f7f25-640.webp 640w, /visualizations/shop02-office-r7-A-23120f7f25-1280.webp 1280w, /visualizations/shop02-office-r7-A-23120f7f25-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "shop02-beauty-r7-C-e0e1303a00",
+      "sceneId": "shop02-beauty",
+      "title": "Obchod 2 · Kosmetické studio",
+      "category": "obchody",
+      "variant": "C",
+      "revision": 7,
+      "unitIds": [
+        "obchod-2"
+      ],
+      "original": "/visualizations/shop02-beauty-original-021f4acebbb1-1920.webp",
+      "src": "/visualizations/shop02-beauty-r7-C-e0e1303a00-1920.webp",
+      "thumb": "/visualizations/shop02-beauty-r7-C-e0e1303a00-640.webp",
+      "srcSet": "/visualizations/shop02-beauty-r7-C-e0e1303a00-640.webp 640w, /visualizations/shop02-beauty-r7-C-e0e1303a00-1280.webp 1280w, /visualizations/shop02-beauty-r7-C-e0e1303a00-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "shop02-atelier-r7-A-c1826936df",
+      "sceneId": "shop02-atelier",
+      "title": "Obchod 2 · Ateliér",
+      "category": "obchody",
+      "variant": "A",
+      "revision": 7,
+      "unitIds": [
+        "obchod-2"
+      ],
+      "original": "/visualizations/shop02-atelier-original-021f4acebbb1-1920.webp",
+      "src": "/visualizations/shop02-atelier-r7-A-c1826936df-1920.webp",
+      "thumb": "/visualizations/shop02-atelier-r7-A-c1826936df-640.webp",
+      "srcSet": "/visualizations/shop02-atelier-r7-A-c1826936df-640.webp 640w, /visualizations/shop02-atelier-r7-A-c1826936df-1280.webp 1280w, /visualizations/shop02-atelier-r7-A-c1826936df-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "cellar-r7-B-376d017b57",
+      "sceneId": "cellar",
+      "title": "Sklepní kóje",
+      "category": "zazemi",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [],
+      "original": "/visualizations/cellar-original-ec6e8f8c762e-1920.webp",
+      "src": "/visualizations/cellar-r7-B-376d017b57-1920.webp",
+      "thumb": "/visualizations/cellar-r7-B-376d017b57-640.webp",
+      "srcSet": "/visualizations/cellar-r7-B-376d017b57-640.webp 640w, /visualizations/cellar-r7-B-376d017b57-1280.webp 1280w, /visualizations/cellar-r7-B-376d017b57-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "bike-room-r7-B-c1c1bef3c4",
+      "sceneId": "bike-room",
+      "title": "Kolárna",
+      "category": "zazemi",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [],
+      "original": "/visualizations/bike-room-original-f8a5f841db25-1920.webp",
+      "src": "/visualizations/bike-room-r7-B-c1c1bef3c4-1920.webp",
+      "thumb": "/visualizations/bike-room-r7-B-c1c1bef3c4-640.webp",
+      "srcSet": "/visualizations/bike-room-r7-B-c1c1bef3c4-640.webp 640w, /visualizations/bike-room-r7-B-c1c1bef3c4-1280.webp 1280w, /visualizations/bike-room-r7-B-c1c1bef3c4-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "workshop-r7-B-9e4c3d8087",
+      "sceneId": "workshop",
+      "title": "Dílna",
+      "category": "zazemi",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [],
+      "original": "/visualizations/workshop-original-393aa7fe85cd-1920.webp",
+      "src": "/visualizations/workshop-r7-B-9e4c3d8087-1920.webp",
+      "thumb": "/visualizations/workshop-r7-B-9e4c3d8087-640.webp",
+      "srcSet": "/visualizations/workshop-r7-B-9e4c3d8087-640.webp 640w, /visualizations/workshop-r7-B-9e4c3d8087-1280.webp 1280w, /visualizations/workshop-r7-B-9e4c3d8087-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "staircase-r7-B-80ee5fe22d",
+      "sceneId": "staircase",
+      "title": "Schodiště",
+      "category": "zazemi",
+      "variant": "B",
+      "revision": 7,
+      "unitIds": [],
+      "original": "/visualizations/staircase-original-7c90dab59df7-1920.webp",
+      "src": "/visualizations/staircase-r7-B-80ee5fe22d-1920.webp",
+      "thumb": "/visualizations/staircase-r7-B-80ee5fe22d-640.webp",
+      "srcSet": "/visualizations/staircase-r7-B-80ee5fe22d-640.webp 640w, /visualizations/staircase-r7-B-80ee5fe22d-1280.webp 1280w, /visualizations/staircase-r7-B-80ee5fe22d-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    },
+    {
+      "id": "entry-r7-C-36868aa597",
+      "sceneId": "entry",
+      "title": "Zadní vstup",
+      "category": "venku",
+      "variant": "C",
+      "revision": 7,
+      "unitIds": [],
+      "original": "/visualizations/entry-original-e40ab1e256f0-1920.webp",
+      "src": "/visualizations/entry-r7-C-36868aa597-1920.webp",
+      "thumb": "/visualizations/entry-r7-C-36868aa597-640.webp",
+      "srcSet": "/visualizations/entry-r7-C-36868aa597-640.webp 640w, /visualizations/entry-r7-C-36868aa597-1280.webp 1280w, /visualizations/entry-r7-C-36868aa597-1920.webp 1920w",
+      "caption": "Návrh možného vybavení."
+    }
+  ]
+}

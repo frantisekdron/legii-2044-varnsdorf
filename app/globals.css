@@ -171,3 +171,5 @@ body{background:var(--paper);color:var(--ink)}.site{background:var(--paper);colo
 .neighborhood .landscape-story{margin-top:0}.location-heading{margin-bottom:24px}.location-actions{display:flex;flex-wrap:wrap;gap:12px 28px}.location-actions .text-link{margin-top:16px;min-height:44px}
 
 footer{flex-wrap:wrap}footer .footer-credit{flex-basis:100%;text-align:center;font-size:11px;letter-spacing:.03em;color:var(--caption);padding-top:20px;border-top:1px solid var(--line)}footer .footer-credit span{color:var(--ink)}footer .footer-credit:hover span{text-decoration:underline;text-underline-offset:3px}
+
+.amenity-proposals{display:grid;gap:12px;margin-top:24px}.amenity-proposals button{display:flex;align-items:center;gap:14px;width:100%;border:0;border-top:1px solid var(--line);background:transparent;color:var(--ink);padding:12px 0 0;text-align:left}.amenity-proposals img{width:82px;height:58px;object-fit:cover}.amenity-proposals span{flex:1;font-size:15px}.amenity-proposals small{display:block;font-size:11px;color:var(--muted-foreground);margin-top:4px}.amenity-proposals button:hover{color:var(--caption)}
