@@ -3,7 +3,7 @@ import {useState} from 'react';
 import {Maximize2,Columns2} from 'lucide-react';
 import {Photo} from './photo';
 import manifest from './visualizations-data.json';
-export type Visualization={id:string;sceneId:string;title:string;category:'bydleni'|'venku'|'zazemi'|'podkrovi';variant:string;revision:number;unitIds:string[];original:string;src:string;thumb:string;srcSet:string;caption:string};
+export type Visualization={id:string;sceneId:string;title:string;category:'bydleni'|'venku'|'zazemi'|'podkrovi'|'obchody';variant:string;revision:number;unitIds:string[];original:string;src:string;thumb:string;srcSet:string;caption:string};
 export const visualizations=manifest.items as Visualization[];
 export function VisualizationGallery({items,onGallery}:{items:Visualization[];onGallery:(title:string,photos:{src:string;caption?:string}[])=>void}){
  const [active,setActive]=useState(items[0]?.id),[mode,setMode]=useState('navrh');
