@@ -147,3 +147,22 @@ body{background:var(--paper);color:var(--ink)}.site{background:var(--paper);colo
 
 /* Approved proposals live with the rooms and amenities they describe. */
 .unit-viz-badge{position:absolute;left:15px;bottom:15px;background:var(--paper);color:var(--ink);font-size:12px;padding:7px 10px}.amenity-viz-label{position:absolute;left:16px;top:16px;background:var(--paper);color:var(--ink);padding:7px 11px;font-size:12px}.amenity-links{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:20px}.amenity-links button{display:inline-flex;align-items:center;gap:9px;background:transparent;color:var(--ink);border:0;border-bottom:1px solid var(--line);min-height:44px;padding:5px 0;font-size:14px;text-align:left}.attic-viz-link{display:flex;margin-top:15px}
+
+/* Quiet atelier drawings extend the architectural floor-plan motif. */
+.renovation-section,.contact-section{position:relative;isolation:isolate;overflow:clip}
+.renovation-section>:not(.sketch-backdrop),.contact-section>:not(.sketch-backdrop){position:relative;z-index:1}
+.sketch-backdrop{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;user-select:none;mix-blend-mode:multiply}
+.sketch-backdrop img{position:absolute;display:block;max-width:none;height:auto;filter:grayscale(1)}
+.renovation-sketch{opacity:.16;mask-image:linear-gradient(180deg,transparent,#000 5%,#000 70%,transparent)}
+.renovation-sketch img{width:100%;left:0;top:12px}
+.contact-sketch{opacity:.23;mask-image:linear-gradient(180deg,transparent,#000 15%,#000 84%,transparent)}
+.contact-sketch img{width:100%;height:100%;object-fit:cover;object-position:center}
+.design-5 .sketch-backdrop{filter:invert(1);mix-blend-mode:screen}
+@media(min-width:1600px){.renovation-sketch img{top:-35px}}
+@media(max-width:760px){
+ .renovation-sketch{opacity:.11;mask-image:linear-gradient(180deg,transparent,#000 4%,#000 52%,transparent 80%)}
+ .renovation-sketch img{width:760px;left:50%;top:4px;transform:translateX(-50%)}
+ .contact-sketch{opacity:.15;mask-image:linear-gradient(180deg,transparent,#000 22%,#000 86%,transparent)}
+ .contact-sketch img{width:680px;height:auto;right:-65px;bottom:5px;object-fit:contain}
+}
+@media(forced-colors:active){.sketch-backdrop{display:none}}
